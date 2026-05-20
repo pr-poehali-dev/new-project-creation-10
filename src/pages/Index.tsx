@@ -313,15 +313,36 @@ export default function Index() {
             >
               СМОТРЕТЬ РАБОТЫ
             </button>
-            <a
-              href="https://t.me/+79619296728"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-8 py-3 rounded-lg font-bold text-base transition-all hover:scale-105 text-center"
-              style={{ background: "transparent", color: "#fff", border: `2px solid #fff`, fontFamily: "'Oswald', sans-serif", letterSpacing: "0.05em", textDecoration: "none" }}
-            >
-              ОФОРМИТЬ ЗАКАЗ
-            </a>
+            <div className="relative group">
+              <button
+                className="px-8 py-3 rounded-lg font-bold text-base transition-all hover:scale-105 flex items-center gap-2"
+                style={{ background: "transparent", color: "#fff", border: `2px solid #fff`, fontFamily: "'Oswald', sans-serif", letterSpacing: "0.05em" }}
+              >
+                ОФОРМИТЬ ЗАКАЗ
+                <Icon name="ChevronDown" size={16} />
+              </button>
+              <div className="absolute left-0 top-full mt-2 w-full rounded-lg overflow-hidden shadow-xl opacity-0 group-hover:opacity-100 pointer-events-none group-hover:pointer-events-auto transition-opacity z-50"
+                style={{ background: "#1a0a0a", border: `1px solid rgba(255,255,255,0.2)` }}>
+                <a
+                  href="https://t.me/+79619296728"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-3 px-5 py-3 font-semibold text-sm hover:opacity-80 transition-opacity"
+                  style={{ color: "#fff", textDecoration: "none", fontFamily: "'Oswald', sans-serif", letterSpacing: "0.05em" }}
+                >
+                  <span>✈️</span> TELEGRAM
+                </a>
+                <a
+                  href="maxim://chat?phone=79619296728"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-3 px-5 py-3 font-semibold text-sm hover:opacity-80 transition-opacity border-t"
+                  style={{ color: "#fff", textDecoration: "none", fontFamily: "'Oswald', sans-serif", letterSpacing: "0.05em", borderColor: "rgba(255,255,255,0.1)" }}
+                >
+                  <span>💬</span> МАКС
+                </a>
+              </div>
+            </div>
           </div>
         </div>
 
