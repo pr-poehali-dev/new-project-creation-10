@@ -170,7 +170,7 @@ export default function Index() {
               className="px-5 py-2 rounded font-semibold text-sm transition-all hover:scale-105"
               style={{ background: RED, color: "#fff", border: `2px solid ${YELLOW}` }}
             >
-              Получить предложение
+              Оформить заказ
             </button>
           </nav>
 
@@ -187,7 +187,7 @@ export default function Index() {
               </button>
             ))}
             <button onClick={() => scrollTo("contacts")} className="mt-2 py-3 rounded font-semibold" style={{ background: RED, color: "#fff" }}>
-              Получить предложение
+              Оформить заказ
             </button>
           </div>
         )}
