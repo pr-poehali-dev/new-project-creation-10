@@ -200,13 +200,10 @@ export default function Index() {
                 }}
               />
               <div className="mt-5 text-center">
-                <div className="font-bold text-white" style={{ fontFamily: "'Oswald', sans-serif", fontSize: "clamp(0.8rem, 1.5vw, 1rem)", letterSpacing: "0.12em", color: YELLOW }}>
-                  РЕКЛАМНАЯ
+                <div style={{ fontFamily: "'Oswald', sans-serif", fontSize: "clamp(0.75rem, 1.3vw, 0.95rem)", fontWeight: 400, letterSpacing: "0.14em", color: YELLOW, whiteSpace: "nowrap" }}>
+                  РЕКЛАМНАЯ КОМПАНИЯ
                 </div>
-                <div className="font-black text-white" style={{ fontFamily: "'Oswald', sans-serif", fontSize: "clamp(2rem, 4vw, 3rem)", lineHeight: 1 }}>
-                  КОМПАНИЯ
-                </div>
-                <div className="font-black" style={{ fontFamily: "'Oswald', sans-serif", fontSize: "clamp(2rem, 4vw, 3rem)", color: YELLOW, lineHeight: 1 }}>
+                <div className="font-black text-white" style={{ fontFamily: "'Oswald', sans-serif", fontSize: "clamp(2.5rem, 5vw, 3.8rem)", lineHeight: 1, marginTop: "2px" }}>
                   АДИ
                 </div>
               </div>
