@@ -234,23 +234,27 @@ export default function Index() {
             </div>
           </div>
 
-          {/* Телефоны снизу */}
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-10 mt-8">
-            <a href="tel:+72967628" className="flex items-center gap-3 group">
+          {/* Телефон + мессенджеры */}
+          <div className="flex flex-col items-center gap-4 mt-8">
+            {/* Иконки мессенджеров */}
+            <div className="flex items-center gap-3">
+              <a href="https://wa.me/79619296728" target="_blank" rel="noopener noreferrer" title="WhatsApp" className="transition-transform hover:scale-110">
+                <img src="https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/8e621597-1057-4cef-9ae9-8cf2c81d6ee9.png" alt="WhatsApp" className="w-10 h-10 rounded-full" />
+              </a>
+              <a href="https://t.me/+79619296728" target="_blank" rel="noopener noreferrer" title="Telegram" className="transition-transform hover:scale-110">
+                <img src="https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/fbd819ac-1f3b-4edc-b2ee-e7946e53dacb.png" alt="Telegram" className="w-10 h-10 rounded-full" />
+              </a>
+              <a href="viber://chat?number=%2B79619296728" target="_blank" rel="noopener noreferrer" title="Viber" className="transition-transform hover:scale-110">
+                <img src="https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/9bee6ad3-3371-4642-bae3-e540ec9015bd.png" alt="Viber" className="w-10 h-10 rounded-lg" />
+              </a>
+            </div>
+            {/* Номер телефона */}
+            <a href="tel:+79619296728" className="flex items-center gap-3 group">
               <div className="w-10 h-10 rounded-full flex items-center justify-center shrink-0" style={{ background: "rgba(0,0,0,0.3)", border: `2px solid ${YELLOW}` }}>
                 <Icon name="Phone" size={18} style={{ color: YELLOW }} />
               </div>
-              <span className="font-black text-white text-xl tracking-wider" style={{ fontFamily: "'Oswald', sans-serif" }}>
-                29-67-28
-              </span>
-            </a>
-            <div className="hidden sm:block text-white/40 text-2xl font-light">✦</div>
-            <a href="tel:+72967698" className="flex items-center gap-3 group">
-              <div className="w-10 h-10 rounded-full flex items-center justify-center shrink-0" style={{ background: "rgba(0,0,0,0.3)", border: `2px solid ${YELLOW}` }}>
-                <Icon name="Phone" size={18} style={{ color: YELLOW }} />
-              </div>
-              <span className="font-black text-white text-xl tracking-wider" style={{ fontFamily: "'Oswald', sans-serif" }}>
-                29-67-98
+              <span className="font-black text-white tracking-wider" style={{ fontFamily: "'Oswald', sans-serif", fontSize: "clamp(1.3rem, 3vw, 1.8rem)" }}>
+                +7 961 929-67-28
               </span>
             </a>
           </div>
