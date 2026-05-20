@@ -386,8 +386,30 @@ export default function Index() {
             <div className="mb-10 w-16 h-1 rounded" style={{ background: RED }} />
 
             <div className="space-y-6">
+              {/* Телефон + мессенджеры */}
+              <div className="flex items-center gap-4">
+                <div className="w-10 h-10 rounded-lg flex items-center justify-center shrink-0" style={{ background: "rgba(204,27,27,0.15)", border: "1px solid rgba(204,27,27,0.3)" }}>
+                  <Icon name="Phone" size={20} style={{ color: RED }} />
+                </div>
+                <div>
+                  <p className="text-xs mb-1" style={{ color: "rgba(245,245,245,0.4)" }}>Телефон</p>
+                  <a href="tel:+79619296728" className="font-bold text-lg hover:underline" style={{ color: "#fff" }}>
+                    +7 961 929-67-28
+                  </a>
+                  <div className="flex items-center gap-2 mt-2">
+                    <a href="tel:+79619296728" title="Позвонить" className="transition-transform hover:scale-110">
+                      <img src="https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/8e621597-1057-4cef-9ae9-8cf2c81d6ee9.png" alt="Позвонить" className="w-9 h-9 rounded-full" />
+                    </a>
+                    <a href="tg://resolve?phone=79619296728" target="_blank" rel="noopener noreferrer" title="Telegram" className="transition-transform hover:scale-110">
+                      <img src="https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/fbd819ac-1f3b-4edc-b2ee-e7946e53dacb.png" alt="Telegram" className="w-9 h-9 rounded-full" />
+                    </a>
+                    <a href="maxim://chat?phone=79619296728" target="_blank" rel="noopener noreferrer" title="Мax" className="transition-transform hover:scale-110">
+                      <img src="https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/9bee6ad3-3371-4642-bae3-e540ec9015bd.png" alt="Мax" className="w-9 h-9 rounded-lg" />
+                    </a>
+                  </div>
+                </div>
+              </div>
               {[
-                { icon: "Phone", label: "Телефон", value: "+7 (000) 000-00-00" },
                 { icon: "Mail", label: "Email", value: "info@adi-reklama.ru" },
                 { icon: "MapPin", label: "Адрес", value: "г. Москва, ул. Примерная, д. 1" },
                 { icon: "Clock", label: "Режим работы", value: "Пн–Пт: 9:00–18:00" },
