@@ -92,6 +92,21 @@ const PORTFOLIO = [
     title: "Адресные таблички для подъездов",
     category: "Таблички и стенды",
   },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/92964724-7eba-4f4e-b5fc-8bc32c1ab9e6.jpg",
+    title: "Печать фото в стиле «Полароид»",
+    category: "Печать фото",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/6ae54f1b-d362-4c75-913f-491a387a2bc3.jpg",
+    title: "Фото на холсте — портрет",
+    category: "Печать фото",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/26078d71-7b57-4469-ab34-a0b4f5b8dbc7.jpg",
+    title: "Фото на холсте — свадебный портрет",
+    category: "Печать фото",
+  },
 ];
 
 const STATS = [
