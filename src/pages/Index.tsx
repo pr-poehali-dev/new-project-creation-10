@@ -425,7 +425,15 @@ export default function Index() {
             <h2 className="mb-2" style={{ fontFamily: "'Oswald', sans-serif", fontSize: "clamp(2rem,4vw,3rem)", fontWeight: 700, lineHeight: 1.1 }}>
               ОБСУДИМ<br />ВАШ ПРОЕКТ
             </h2>
-            <div className="mb-10 w-16 h-1 rounded" style={{ background: RED }} />
+            <div className="mb-6 w-16 h-1 rounded" style={{ background: RED }} />
+
+            {/* Онлайн-работа */}
+            <div className="flex gap-3 mb-8 p-4 rounded-xl" style={{ background: "rgba(245,216,0,0.08)", border: `1px solid rgba(245,216,0,0.25)` }}>
+              <Icon name="Wifi" size={20} style={{ color: YELLOW, flexShrink: 0, marginTop: "2px" }} />
+              <p className="text-sm leading-relaxed" style={{ color: "rgba(245,245,245,0.8)" }}>
+                <span className="font-bold" style={{ color: YELLOW }}>Работаем онлайн.</span> Все заказы принимаются дистанционно — по телефону или в мессенджерах. Готовые заказы выдаются по адресу в указанные часы. Офис не предназначен для визита клиентов.
+              </p>
+            </div>
 
             <div className="space-y-6">
               {/* Телефон + мессенджеры */}
