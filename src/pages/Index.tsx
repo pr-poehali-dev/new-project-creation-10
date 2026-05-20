@@ -321,7 +321,7 @@ export default function Index() {
                 ОФОРМИТЬ ЗАКАЗ
                 <Icon name="ChevronDown" size={16} />
               </button>
-              <div className="absolute left-0 top-full mt-2 w-full rounded-lg overflow-hidden shadow-xl opacity-0 group-hover:opacity-100 pointer-events-none group-hover:pointer-events-auto transition-opacity z-50"
+              <div className="absolute left-0 bottom-full mb-2 w-full rounded-lg overflow-hidden shadow-xl opacity-0 group-hover:opacity-100 pointer-events-none group-hover:pointer-events-auto transition-opacity z-50"
                 style={{ background: "#1a0a0a", border: `1px solid rgba(255,255,255,0.2)` }}>
                 <a
                   href="https://t.me/+79619296728"
