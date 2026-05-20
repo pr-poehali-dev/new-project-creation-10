@@ -124,6 +124,10 @@ const DARK = "#1a0a0a";
 export default function Index() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [form, setForm] = useState({ name: "", phone: "", message: "" });
+  const [activeCategory, setActiveCategory] = useState("Все");
+
+  const categories = ["Все", ...Array.from(new Set(PORTFOLIO.map((p) => p.category)))];
+  const filteredPortfolio = activeCategory === "Все" ? PORTFOLIO : PORTFOLIO.filter((p) => p.category === activeCategory);
 
   const scrollTo = (id: string) => {
     document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
@@ -387,7 +391,7 @@ export default function Index() {
       {/* PORTFOLIO */}
       <section id="portfolio" className="py-24 px-6" style={{ background: "#111" }}>
         <div className="max-w-7xl mx-auto">
-          <div className="mb-16">
+          <div className="mb-10">
             <p className="text-sm font-medium uppercase tracking-widest mb-3" style={{ color: YELLOW }}>Наши работы</p>
             <h2 style={{ fontFamily: "'Oswald', sans-serif", fontSize: "clamp(2rem,4vw,3rem)", fontWeight: 700, lineHeight: 1.1 }}>
               ПОРТФОЛИО
@@ -395,8 +399,27 @@ export default function Index() {
             <div className="mt-4 w-16 h-1 rounded" style={{ background: RED }} />
           </div>
 
+          <div className="flex flex-wrap gap-3 mb-10">
+            {categories.map((cat) => (
+              <button
+                key={cat}
+                onClick={() => setActiveCategory(cat)}
+                className="px-4 py-2 rounded-full font-semibold text-sm transition-all hover:scale-105"
+                style={{
+                  fontFamily: "'Oswald', sans-serif",
+                  letterSpacing: "0.05em",
+                  background: activeCategory === cat ? RED : "transparent",
+                  color: activeCategory === cat ? "#fff" : "rgba(255,255,255,0.6)",
+                  border: `2px solid ${activeCategory === cat ? RED : "rgba(255,255,255,0.2)"}`,
+                }}
+              >
+                {cat.toUpperCase()}
+              </button>
+            ))}
+          </div>
+
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-5">
-            {PORTFOLIO.map((p, i) => (
+            {filteredPortfolio.map((p, i) => (
               <div key={i} className="portfolio-card rounded-2xl" style={{ border: "1px solid rgba(204,27,27,0.25)", aspectRatio: "4/5", position: "relative" }}>
                 <img src={p.img} alt={p.title} className="w-full h-full object-cover rounded-2xl" />
                 <div className="overlay absolute inset-0 rounded-2xl flex flex-col justify-end p-5" style={{ background: "linear-gradient(to top, rgba(17,0,0,0.95) 0%, transparent 55%)" }}>
