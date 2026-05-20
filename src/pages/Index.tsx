@@ -454,7 +454,8 @@ export default function Index() {
               {[
                 { icon: "Mail", label: "Email", value: "adi_056@mail.ru" },
                 { icon: "MapPin", label: "Адрес", value: "г. Оренбург, ул. Гаранькина, 27" },
-                { icon: "Clock", label: "Режим работы", value: "Пн–Пт: 9:00–18:00" },
+                { icon: "Clock", label: "Приём заявок", value: "Пн–Сб: 10:00–22:00" },
+                { icon: "Clock", label: "Выдача заказов", value: "Пн–Пт: 11:00–19:00" },
               ].map((c, i) => (
                 <div key={i} className="flex items-center gap-4">
                   <div className="w-10 h-10 rounded-lg flex items-center justify-center shrink-0" style={{ background: "rgba(204,27,27,0.15)", border: "1px solid rgba(204,27,27,0.3)" }}>
