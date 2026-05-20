@@ -107,6 +107,31 @@ const PORTFOLIO = [
     title: "Фото на холсте — свадебный портрет",
     category: "Печать фото",
   },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/02e403bc-2681-4914-a468-23b5cfb0260f.jpg",
+    title: "Адресная табличка «3-я Парковая»",
+    category: "Таблички и стенды",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/f4491c18-b9b8-42e4-8297-8aaaa688881f.jpg",
+    title: "Адресная табличка «Коммунальная»",
+    category: "Таблички и стенды",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/340f849a-5d41-4f42-aad6-1c9810412639.jpg",
+    title: "Адресная табличка «Школьная»",
+    category: "Таблички и стенды",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/25a70026-c358-4519-b8dc-26c876776e30.jpg",
+    title: "Адресная табличка «пл. Элеватора»",
+    category: "Таблички и стенды",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/6ce187e9-87e6-45ce-a89d-a2d80db26f74.jpg",
+    title: "Адресная табличка «А. Ландо»",
+    category: "Таблички и стенды",
+  },
 ];
 
 const STATS = [
