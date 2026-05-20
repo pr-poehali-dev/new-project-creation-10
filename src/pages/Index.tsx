@@ -313,13 +313,15 @@ export default function Index() {
             >
               СМОТРЕТЬ РАБОТЫ
             </button>
-            <button
-              onClick={() => scrollTo("contacts")}
-              className="px-8 py-3 rounded-lg font-bold text-base transition-all hover:scale-105"
-              style={{ background: "transparent", color: "#fff", border: `2px solid #fff`, fontFamily: "'Oswald', sans-serif", letterSpacing: "0.05em" }}
+            <a
+              href="https://t.me/+79619296728"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-8 py-3 rounded-lg font-bold text-base transition-all hover:scale-105 text-center"
+              style={{ background: "transparent", color: "#fff", border: `2px solid #fff`, fontFamily: "'Oswald', sans-serif", letterSpacing: "0.05em", textDecoration: "none" }}
             >
-              ПОЛУЧИТЬ ПРЕДЛОЖЕНИЕ
-            </button>
+              ОФОРМИТЬ ЗАКАЗ
+            </a>
           </div>
         </div>
 
