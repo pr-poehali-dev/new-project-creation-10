@@ -465,54 +465,43 @@ export default function Index() {
             </div>
           </div>
 
-          {/* Form */}
-          <div className="rounded-2xl p-8" style={{ background: "rgba(255,255,255,0.03)", border: `1px solid rgba(204,27,27,0.25)` }}>
-            <h3 className="font-bold text-xl mb-6" style={{ fontFamily: "'Oswald', sans-serif", letterSpacing: "0.03em" }}>
-              Оставить заявку
+          {/* CTA — мессенджеры */}
+          <div className="rounded-2xl p-8 flex flex-col justify-center" style={{ background: "rgba(255,255,255,0.03)", border: `1px solid rgba(204,27,27,0.25)` }}>
+            <h3 className="font-bold text-xl mb-2" style={{ fontFamily: "'Oswald', sans-serif", letterSpacing: "0.03em" }}>
+              ОСТАВИТЬ ЗАЯВКУ
             </h3>
-            <div className="space-y-4">
-              <div>
-                <label className="block text-sm mb-2" style={{ color: "rgba(245,245,245,0.55)" }}>Ваше имя</label>
-                <input
-                  type="text"
-                  placeholder="Иван Иванов"
-                  value={form.name}
-                  onChange={(e) => setForm({ ...form, name: e.target.value })}
-                  className="w-full px-4 py-3 rounded-lg text-sm outline-none"
-                  style={{ background: "rgba(255,255,255,0.06)", border: "1px solid rgba(204,27,27,0.3)", color: "#f5f5f5" }}
-                />
-              </div>
-              <div>
-                <label className="block text-sm mb-2" style={{ color: "rgba(245,245,245,0.55)" }}>Телефон</label>
-                <input
-                  type="tel"
-                  placeholder="+7 (___) ___-__-__"
-                  value={form.phone}
-                  onChange={(e) => setForm({ ...form, phone: e.target.value })}
-                  className="w-full px-4 py-3 rounded-lg text-sm outline-none"
-                  style={{ background: "rgba(255,255,255,0.06)", border: "1px solid rgba(204,27,27,0.3)", color: "#f5f5f5" }}
-                />
-              </div>
-              <div>
-                <label className="block text-sm mb-2" style={{ color: "rgba(245,245,245,0.55)" }}>Опишите задачу</label>
-                <textarea
-                  rows={4}
-                  placeholder="Нужен баннер 3×6 метра..."
-                  value={form.message}
-                  onChange={(e) => setForm({ ...form, message: e.target.value })}
-                  className="w-full px-4 py-3 rounded-lg text-sm outline-none resize-none"
-                  style={{ background: "rgba(255,255,255,0.06)", border: "1px solid rgba(204,27,27,0.3)", color: "#f5f5f5" }}
-                />
-              </div>
-              <button
-                className="w-full py-4 rounded-lg font-semibold text-base transition-all hover:scale-[1.02]"
-                style={{ background: RED, color: "#fff", border: `2px solid ${YELLOW}`, boxShadow: "0 4px 20px rgba(204,27,27,0.4)" }}
+            <p className="text-sm mb-8" style={{ color: "rgba(245,245,245,0.55)" }}>
+              Напишите нам в удобный мессенджер — ответим быстро и рассчитаем стоимость
+            </p>
+            <div className="flex flex-col gap-4">
+              <a
+                href="tg://resolve?phone=79619296728"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center gap-3 py-4 rounded-xl font-bold text-base transition-all hover:scale-[1.02]"
+                style={{ background: "#29abe2", color: "#fff", boxShadow: "0 4px 20px rgba(41,171,226,0.3)" }}
               >
-                Отправить заявку
-              </button>
-              <p className="text-center text-xs" style={{ color: "rgba(245,245,245,0.35)" }}>
-                Нажимая кнопку, вы соглашаетесь с политикой конфиденциальности
-              </p>
+                <img src="https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/fbd819ac-1f3b-4edc-b2ee-e7946e53dacb.png" alt="Telegram" className="w-7 h-7 rounded-full" />
+                Написать в Telegram
+              </a>
+              <a
+                href="maxim://chat?phone=79619296728"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center gap-3 py-4 rounded-xl font-bold text-base transition-all hover:scale-[1.02]"
+                style={{ background: "linear-gradient(135deg, #4f6ef7, #9b59f5)", color: "#fff", boxShadow: "0 4px 20px rgba(79,110,247,0.3)" }}
+              >
+                <img src="https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/9bee6ad3-3371-4642-bae3-e540ec9015bd.png" alt="Мax" className="w-7 h-7 rounded-lg" />
+                Написать в Мax
+              </a>
+              <a
+                href="tel:+79619296728"
+                className="flex items-center justify-center gap-3 py-4 rounded-xl font-bold text-base transition-all hover:scale-[1.02]"
+                style={{ background: "transparent", color: "#fff", border: `2px solid ${YELLOW}` }}
+              >
+                <Icon name="Phone" size={20} style={{ color: YELLOW }} />
+                Позвонить: +7 961 929-67-28
+              </a>
             </div>
           </div>
         </div>
