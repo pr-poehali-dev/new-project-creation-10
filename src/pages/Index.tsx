@@ -559,9 +559,16 @@ export default function Index() {
               РЕКЛАМНАЯ КОМПАНИЯ <span style={{ color: RED }}>АДИ</span>
             </span>
           </div>
-          <p className="text-sm" style={{ color: "rgba(245,245,245,0.35)" }}>
-            © 2024 Рекламная компания АДИ. Все права защищены.
-          </p>
+          <div className="flex flex-col items-center gap-2">
+            <p className="text-sm" style={{ color: "rgba(245,245,245,0.35)" }}>
+              © 2024 Рекламная компания АДИ. Все права защищены.
+            </p>
+            <a href="https://vk.ru/adi56ru" target="_blank" rel="noopener noreferrer"
+              className="text-xs transition-colors hover:underline"
+              style={{ color: "#5b9bd5" }}>
+              ВКонтакте: vk.ru/adi56ru
+            </a>
+          </div>
           <div className="flex gap-6">
             {NAV_LINKS.map((l) => (
               <button
