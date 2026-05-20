@@ -384,15 +384,7 @@ export default function Index() {
             ))}
           </div>
 
-          <div className="text-center mt-12">
-            <button
-              onClick={() => scrollTo("contacts")}
-              className="px-8 py-4 rounded font-semibold transition-all hover:scale-105"
-              style={{ border: `2px solid ${RED}`, color: "#fff", background: "rgba(204,27,27,0.12)" }}
-            >
-              Обсудить ваш проект →
-            </button>
-          </div>
+
         </div>
       </section>
 
