@@ -459,6 +459,20 @@ export default function Index() {
                   </div>
                 </div>
               </div>
+              {/* ВКонтакте */}
+              <div className="flex items-center gap-4">
+                <div className="w-10 h-10 rounded-lg flex items-center justify-center shrink-0" style={{ background: "rgba(204,27,27,0.15)", border: "1px solid rgba(204,27,27,0.3)" }}>
+                  <Icon name="Users" size={20} style={{ color: RED }} />
+                </div>
+                <div>
+                  <p className="text-xs mb-1" style={{ color: "rgba(245,245,245,0.4)" }}>ВКонтакте</p>
+                  <a href="https://vk.ru/adi56ru" target="_blank" rel="noopener noreferrer"
+                    className="font-semibold transition-colors hover:underline"
+                    style={{ color: "#5b9bd5" }}>
+                    vk.ru/adi56ru
+                  </a>
+                </div>
+              </div>
               {[
                 { icon: "Mail", label: "Email", value: "adi_056@mail.ru" },
                 { icon: "MapPin", label: "Адрес", value: "г. Оренбург, ул. Гаранькина, 27" },
