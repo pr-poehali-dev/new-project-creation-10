@@ -148,78 +148,134 @@ export default function Index() {
         )}
       </header>
 
-      {/* HERO */}
-      <section id="home" className="relative min-h-screen flex items-center overflow-hidden" style={{ paddingTop: "80px" }}>
-        {/* Background */}
-        <div className="absolute inset-0" style={{ background: `linear-gradient(135deg, #1a0505 0%, #1a0a0a 40%, #0d0d0d 100%)` }} />
-        <div className="absolute inset-0" style={{
-          backgroundImage: "linear-gradient(rgba(204,27,27,0.06) 1px, transparent 1px), linear-gradient(90deg, rgba(204,27,27,0.06) 1px, transparent 1px)",
-          backgroundSize: "50px 50px"
-        }} />
-        {/* Red glow left */}
-        <div className="absolute top-1/2 left-0 w-[500px] h-[500px] rounded-full -translate-y-1/2 -translate-x-1/2" style={{ background: `radial-gradient(circle, rgba(204,27,27,0.2) 0%, transparent 70%)` }} />
-        {/* Yellow glow right */}
-        <div className="absolute top-1/4 right-0 w-80 h-80 rounded-full translate-x-1/3" style={{ background: `radial-gradient(circle, rgba(245,216,0,0.1) 0%, transparent 70%)` }} />
+      {/* HERO — стиль обложки ВКонтакте */}
+      <section id="home" className="relative flex items-center justify-center overflow-hidden" style={{ paddingTop: "64px", minHeight: "100vh", background: RED }}>
 
-        <div className="relative z-10 max-w-7xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-16 items-center">
-          <div>
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full mb-6 text-xs font-medium" style={{ background: "rgba(204,27,27,0.2)", color: YELLOW, border: `1px solid rgba(204,27,27,0.4)` }}>
-              <span className="w-1.5 h-1.5 rounded-full animate-pulse" style={{ background: YELLOW }} />
-              Принимаем заказы — срочная печать от 24 часов
+        {/* Фоновая текстура — лёгкая сетка */}
+        <div className="absolute inset-0 pointer-events-none" style={{
+          backgroundImage: "radial-gradient(rgba(0,0,0,0.12) 1px, transparent 1px)",
+          backgroundSize: "28px 28px"
+        }} />
+        {/* Затемнение по краям */}
+        <div className="absolute inset-0 pointer-events-none" style={{ background: "radial-gradient(ellipse at center, transparent 40%, rgba(0,0,0,0.35) 100%)" }} />
+
+        <div className="relative z-10 w-full max-w-6xl mx-auto px-6 py-16">
+
+          {/* Жёлтая рамка — как на обложке */}
+          <div className="relative flex flex-col md:flex-row items-stretch gap-0 rounded-2xl overflow-hidden"
+            style={{ border: `4px solid ${YELLOW}`, boxShadow: `0 0 0 2px ${RED}, 0 8px 48px rgba(0,0,0,0.5)` }}>
+
+            {/* ЛЕВАЯ КОЛОНКА — услуги */}
+            <div className="flex-1 flex flex-col justify-center px-6 py-8 md:py-12"
+              style={{ background: "rgba(0,0,0,0.18)", borderRight: `2px solid ${YELLOW}` }}>
+              <ul className="space-y-2">
+                {[
+                  "ВИЗИТКИ",
+                  "ПОДАРОЧНЫЕ СЕРТИФИКАТЫ",
+                  "ПРИГЛАШЕНИЯ",
+                  "ПЕЧАТЬ ФОТО",
+                  "ПЕЧАТЬ БОЛЬШИХ ФОРМАТОВ",
+                ].map((item, i) => (
+                  <li key={i} className="flex items-start gap-2 font-bold text-white"
+                    style={{ fontFamily: "'Oswald', sans-serif", fontSize: "clamp(0.75rem, 1.4vw, 1rem)", letterSpacing: "0.03em" }}>
+                    <span style={{ color: YELLOW, marginTop: "2px" }}>—</span>
+                    {item}
+                  </li>
+                ))}
+              </ul>
             </div>
 
-            <h1 style={{ fontFamily: "'Oswald', sans-serif", fontSize: "clamp(2.8rem, 6vw, 5rem)", fontWeight: 700, lineHeight: 1.0, letterSpacing: "0.01em" }}>
-              РЕКЛАМА,<br />
-              <span style={{ color: RED }}>КОТОРАЯ</span><br />
-              <span style={{ color: YELLOW }}>РАБОТАЕТ</span>
-            </h1>
+            {/* ЦЕНТР — логотип */}
+            <div className="flex flex-col items-center justify-center px-8 py-10 md:py-12 shrink-0"
+              style={{ minWidth: "220px" }}>
+              <img
+                src="https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/e9a9afb2-b21b-485b-af37-9c13cb183df9.jpg"
+                alt="АДИ рекламная компания"
+                className="rounded-full object-cover animate-float"
+                style={{
+                  width: "clamp(120px, 14vw, 180px)",
+                  height: "clamp(120px, 14vw, 180px)",
+                  border: `4px solid ${YELLOW}`,
+                  boxShadow: `0 0 32px rgba(0,0,0,0.5)`
+                }}
+              />
+              <div className="mt-5 text-center">
+                <div className="font-bold text-white" style={{ fontFamily: "'Oswald', sans-serif", fontSize: "clamp(0.8rem, 1.5vw, 1rem)", letterSpacing: "0.12em", color: YELLOW }}>
+                  РЕКЛАМНАЯ
+                </div>
+                <div className="font-black text-white" style={{ fontFamily: "'Oswald', sans-serif", fontSize: "clamp(2rem, 4vw, 3rem)", lineHeight: 1 }}>
+                  КОМПАНИЯ
+                </div>
+                <div className="font-black" style={{ fontFamily: "'Oswald', sans-serif", fontSize: "clamp(2rem, 4vw, 3rem)", color: YELLOW, lineHeight: 1 }}>
+                  АДИ
+                </div>
+              </div>
+            </div>
 
-            <p className="mt-6 text-lg leading-relaxed" style={{ color: "rgba(245,245,245,0.65)", maxWidth: "480px" }}>
-              Полный цикл рекламного производства — от концепции до монтажа. Наружная реклама, полиграфия, брендинг и дизайн.
-            </p>
-
-            <div className="flex flex-wrap gap-4 mt-10">
-              <button
-                onClick={() => scrollTo("portfolio")}
-                className="px-8 py-4 rounded font-semibold text-base transition-all hover:scale-105"
-                style={{ background: RED, color: "#fff", border: `2px solid ${YELLOW}`, boxShadow: "0 4px 24px rgba(204,27,27,0.4)" }}
-              >
-                Смотреть работы
-              </button>
-              <button
-                onClick={() => scrollTo("contacts")}
-                className="px-8 py-4 rounded font-semibold text-base transition-all hover:scale-105"
-                style={{ border: `2px solid rgba(245,245,245,0.2)`, color: "#f5f5f5", background: "transparent" }}
-              >
-                Рассчитать стоимость
-              </button>
+            {/* ПРАВАЯ КОЛОНКА — услуги */}
+            <div className="flex-1 flex flex-col justify-center px-6 py-8 md:py-12"
+              style={{ background: "rgba(0,0,0,0.18)", borderLeft: `2px solid ${YELLOW}` }}>
+              <ul className="space-y-2">
+                {[
+                  "ФОТО НА ХОЛСТЕ",
+                  "АДРЕСНЫЕ ТАБЛИЧКИ",
+                  "ОФИСНЫЕ ТАБЛИЧКИ",
+                  "НАКЛЕЙКИ С ЛОГО",
+                  "ПЕЧАТИ И ШТАМПЫ",
+                  "СТЕНДЫ. БАННЕРЫ",
+                ].map((item, i) => (
+                  <li key={i} className="flex items-start gap-2 font-bold text-white"
+                    style={{ fontFamily: "'Oswald', sans-serif", fontSize: "clamp(0.75rem, 1.4vw, 1rem)", letterSpacing: "0.03em" }}>
+                    <span style={{ color: YELLOW, marginTop: "2px" }}>—</span>
+                    {item}
+                  </li>
+                ))}
+              </ul>
             </div>
           </div>
 
-          {/* Logo + Stats */}
-          <div className="flex flex-col items-center gap-6">
-            <img
-              src="https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/e9a9afb2-b21b-485b-af37-9c13cb183df9.jpg"
-              alt="АДИ рекламная компания"
-              className="w-52 h-52 rounded-full object-cover animate-float"
-              style={{ border: `4px solid ${YELLOW}`, boxShadow: `0 0 40px rgba(204,27,27,0.5), 0 0 80px rgba(204,27,27,0.2)` }}
-            />
-            <div className="grid grid-cols-2 gap-4 w-full">
-              {STATS.map((s, i) => (
-                <div key={i} className="rounded-xl p-5 flex flex-col" style={{ background: "rgba(255,255,255,0.04)", border: `1px solid rgba(204,27,27,0.3)` }}>
-                  <span style={{ fontFamily: "'Oswald', sans-serif", fontSize: "2.2rem", fontWeight: 700, color: YELLOW, lineHeight: 1 }}>
-                    {s.value}
-                  </span>
-                  <span className="mt-1 text-sm" style={{ color: "rgba(245,245,245,0.55)" }}>{s.label}</span>
-                </div>
-              ))}
-            </div>
+          {/* Телефоны снизу */}
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-10 mt-8">
+            <a href="tel:+72967628" className="flex items-center gap-3 group">
+              <div className="w-10 h-10 rounded-full flex items-center justify-center shrink-0" style={{ background: "rgba(0,0,0,0.3)", border: `2px solid ${YELLOW}` }}>
+                <Icon name="Phone" size={18} style={{ color: YELLOW }} />
+              </div>
+              <span className="font-black text-white text-xl tracking-wider" style={{ fontFamily: "'Oswald', sans-serif" }}>
+                29-67-28
+              </span>
+            </a>
+            <div className="hidden sm:block text-white/40 text-2xl font-light">✦</div>
+            <a href="tel:+72967698" className="flex items-center gap-3 group">
+              <div className="w-10 h-10 rounded-full flex items-center justify-center shrink-0" style={{ background: "rgba(0,0,0,0.3)", border: `2px solid ${YELLOW}` }}>
+                <Icon name="Phone" size={18} style={{ color: YELLOW }} />
+              </div>
+              <span className="font-black text-white text-xl tracking-wider" style={{ fontFamily: "'Oswald', sans-serif" }}>
+                29-67-98
+              </span>
+            </a>
+          </div>
+
+          {/* CTA кнопки */}
+          <div className="flex flex-wrap justify-center gap-4 mt-8">
+            <button
+              onClick={() => scrollTo("portfolio")}
+              className="px-8 py-3 rounded-lg font-bold text-base transition-all hover:scale-105"
+              style={{ background: "#fff", color: RED, fontFamily: "'Oswald', sans-serif", letterSpacing: "0.05em" }}
+            >
+              СМОТРЕТЬ РАБОТЫ
+            </button>
+            <button
+              onClick={() => scrollTo("contacts")}
+              className="px-8 py-3 rounded-lg font-bold text-base transition-all hover:scale-105"
+              style={{ background: "transparent", color: "#fff", border: `2px solid #fff`, fontFamily: "'Oswald', sans-serif", letterSpacing: "0.05em" }}
+            >
+              ПОЛУЧИТЬ ПРЕДЛОЖЕНИЕ
+            </button>
           </div>
         </div>
 
-        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 animate-float" style={{ color: "rgba(255,255,255,0.3)" }}>
-          <span className="text-xs tracking-widest uppercase">Scroll</span>
-          <Icon name="ChevronDown" size={20} />
+        <div className="absolute bottom-6 left-1/2 -translate-x-1/2 flex flex-col items-center gap-1 animate-float" style={{ color: "rgba(255,255,255,0.4)" }}>
+          <Icon name="ChevronDown" size={22} />
         </div>
       </section>
 
