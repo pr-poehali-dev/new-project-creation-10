@@ -238,14 +238,17 @@ export default function Index() {
           <div className="flex flex-col items-center gap-4 mt-8">
             {/* Иконки мессенджеров */}
             <div className="flex items-center gap-3">
-              <a href="https://wa.me/79619296728" target="_blank" rel="noopener noreferrer" title="WhatsApp" className="transition-transform hover:scale-110">
-                <img src="https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/8e621597-1057-4cef-9ae9-8cf2c81d6ee9.png" alt="WhatsApp" className="w-10 h-10 rounded-full" />
+              {/* Телефон (звонок) */}
+              <a href="tel:+79619296728" title="Позвонить" className="transition-transform hover:scale-110">
+                <img src="https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/8e621597-1057-4cef-9ae9-8cf2c81d6ee9.png" alt="Позвонить" className="w-10 h-10 rounded-full" />
               </a>
+              {/* Telegram */}
               <a href="https://t.me/+79619296728" target="_blank" rel="noopener noreferrer" title="Telegram" className="transition-transform hover:scale-110">
                 <img src="https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/fbd819ac-1f3b-4edc-b2ee-e7946e53dacb.png" alt="Telegram" className="w-10 h-10 rounded-full" />
               </a>
-              <a href="viber://chat?number=%2B79619296728" target="_blank" rel="noopener noreferrer" title="Viber" className="transition-transform hover:scale-110">
-                <img src="https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/9bee6ad3-3371-4642-bae3-e540ec9015bd.png" alt="Viber" className="w-10 h-10 rounded-lg" />
+              {/* Мax */}
+              <a href="https://max.ru/+79619296728" target="_blank" rel="noopener noreferrer" title="Мax" className="transition-transform hover:scale-110">
+                <img src="https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/9bee6ad3-3371-4642-bae3-e540ec9015bd.png" alt="Мax" className="w-10 h-10 rounded-lg" />
               </a>
             </div>
             {/* Номер телефона */}
