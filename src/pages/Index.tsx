@@ -67,6 +67,31 @@ const PORTFOLIO = [
     title: "Визитка «Выкуп авто»",
     category: "Полиграфия",
   },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/2fbb8e26-f193-4ec7-a38d-c8fd25751880.jpg",
+    title: "Табличка «Солдатское общежитие»",
+    category: "Таблички и стенды",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/6f5efde4-3038-4ce6-b60d-16aba3a645a6.jpg",
+    title: "Стенд для студии танца StarDance",
+    category: "Таблички и стенды",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/4646d6aa-0acc-4838-b093-8d83f8be04ae.jpg",
+    title: "Офисные таблички «Директор», «Дизайнер»",
+    category: "Таблички и стенды",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/f61b06dd-c937-470f-9a5d-4e8c1e297b04.jpg",
+    title: "Доска объявлений для УК «Этажи»",
+    category: "Таблички и стенды",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/19c9d1c8-7c7f-45d5-94aa-8699f171c27b.jpg",
+    title: "Адресные таблички для подъездов",
+    category: "Таблички и стенды",
+  },
 ];
 
 const STATS = [
