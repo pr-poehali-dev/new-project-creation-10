@@ -43,24 +43,29 @@ const SERVICES = [
 
 const PORTFOLIO = [
   {
-    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/files/261c326e-7579-4352-b5e5-f6a308d22aac.jpg",
-    title: "Рекламная кампания «Горизонт»",
-    category: "Наружная реклама",
-  },
-  {
-    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/files/e3469d82-dd18-4654-9480-6fd81549d1de.jpg",
-    title: "Фирменный стиль Premium Auto",
-    category: "Брендинг",
-  },
-  {
-    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/files/a2670367-7a77-4e2e-bed1-4d942aaf504f.jpg",
-    title: "Полиграфия для выставки",
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/44d8e45e-8f92-4bc0-9675-e29cd90675e8.jpg",
+    title: "Листовки для студии йоги",
     category: "Полиграфия",
   },
   {
-    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/files/99a2480f-9178-40c5-88ec-9694eec65665.jpg",
-    title: "Производство POS-материалов",
-    category: "Печать",
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/559eeab5-b2f3-40dc-8547-66085bc58075.jpg",
+    title: "Визитки для нумеролога",
+    category: "Полиграфия",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/18196012-e83f-411d-9938-e77cd1ee3d02.jpg",
+    title: "Визитки «Уютные подарки»",
+    category: "Полиграфия",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/84c55d45-9c01-4eca-94c0-481433d57f02.jpg",
+    title: "Подарочный сертификат",
+    category: "Полиграфия",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/85b42c10-6e9b-416d-899b-27c028d41713.jpg",
+    title: "Визитка «Выкуп авто»",
+    category: "Полиграфия",
   },
 ];
 
@@ -327,7 +332,7 @@ export default function Index() {
             <div className="mt-4 w-16 h-1 rounded" style={{ background: RED }} />
           </div>
 
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-5">
             {PORTFOLIO.map((p, i) => (
               <div key={i} className="portfolio-card rounded-2xl" style={{ border: "1px solid rgba(204,27,27,0.25)", aspectRatio: "4/5", position: "relative" }}>
                 <img src={p.img} alt={p.title} className="w-full h-full object-cover rounded-2xl" />
