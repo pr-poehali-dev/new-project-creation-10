@@ -453,7 +453,7 @@ export default function Index() {
               </div>
               {[
                 { icon: "Mail", label: "Email", value: "adi_056@mail.ru" },
-                { icon: "MapPin", label: "Адрес", value: "г. Москва, ул. Примерная, д. 1" },
+                { icon: "MapPin", label: "Адрес", value: "г. Оренбург, ул. Гаранькина, 27" },
                 { icon: "Clock", label: "Режим работы", value: "Пн–Пт: 9:00–18:00" },
               ].map((c, i) => (
                 <div key={i} className="flex items-center gap-4">
