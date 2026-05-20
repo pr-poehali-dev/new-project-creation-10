@@ -108,6 +108,31 @@ const PORTFOLIO = [
     category: "Печать фото",
   },
   {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/28fcca04-761f-4bf0-8086-d102eb778d90.jpg",
+    title: "Вывеска «Буль-Буль»",
+    category: "Наружная реклама",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/5330e039-b57e-41f3-bd2b-4ac6134bea3d.jpg",
+    title: "Баннер «Устранение засоров»",
+    category: "Наружная реклама",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/6a73573b-35bc-40a3-be3e-ef372deadcce.jpg",
+    title: "Вывеска «Универсальный магазин»",
+    category: "Наружная реклама",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/6a61c700-3cd4-46e8-9fef-6d953d7ae4d8.jpg",
+    title: "Баннер «Продажа участка»",
+    category: "Наружная реклама",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/f3689a02-b8e4-466f-8a2b-cb55d3f25dd4.jpg",
+    title: "Баннеры «Продажа домов»",
+    category: "Наружная реклама",
+  },
+  {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/02e403bc-2681-4914-a468-23b5cfb0260f.jpg",
     title: "Адресная табличка «3-я Парковая»",
     category: "Таблички и стенды",
