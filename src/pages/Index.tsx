@@ -468,12 +468,14 @@ export default function Index() {
             ))}
           </div>
 
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-5">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
             {filteredPortfolio.map((p, i) => (
-              <div key={i} className="portfolio-card rounded-2xl" style={{ border: "1px solid rgba(204,27,27,0.25)", aspectRatio: "4/5", position: "relative" }}>
-                <img src={p.img} alt={p.title} className="w-full h-full object-cover rounded-2xl" />
-                <div className="overlay absolute inset-0 rounded-2xl flex flex-col justify-end p-5" style={{ background: "linear-gradient(to top, rgba(17,0,0,0.95) 0%, transparent 55%)" }}>
-                  <span className="text-xs font-medium uppercase tracking-wider mb-1" style={{ color: YELLOW }}>{p.category}</span>
+              <div key={i} className="portfolio-card rounded-2xl overflow-hidden" style={{ border: "1px solid rgba(204,27,27,0.25)" }}>
+                <div className="w-full bg-black flex items-center justify-center" style={{ minHeight: "200px" }}>
+                  <img src={p.img} alt={p.title} className="w-full h-auto object-contain rounded-t-2xl" style={{ maxHeight: "280px" }} />
+                </div>
+                <div className="p-4" style={{ background: "rgba(0,0,0,0.6)" }}>
+                  <span className="text-xs font-medium uppercase tracking-wider mb-1 block" style={{ color: YELLOW }}>{p.category}</span>
                   <h3 className="font-bold text-sm leading-snug" style={{ fontFamily: "'Oswald', sans-serif" }}>{p.title}</h3>
                 </div>
               </div>
