@@ -200,7 +200,7 @@ export default function Index() {
                 }}
               />
               <div className="mt-5 text-center">
-                <div style={{ fontFamily: "'Oswald', sans-serif", fontSize: "clamp(0.75rem, 1.3vw, 0.95rem)", fontWeight: 400, letterSpacing: "0.14em", color: YELLOW, whiteSpace: "nowrap" }}>
+                <div style={{ fontFamily: "'Oswald', sans-serif", fontSize: "clamp(0.75rem, 1.3vw, 0.95rem)", fontWeight: 400, letterSpacing: "0.45em", color: YELLOW, whiteSpace: "nowrap" }}>
                   РЕКЛАМНАЯ КОМПАНИЯ
                 </div>
                 <div className="font-black text-white" style={{ fontFamily: "'Oswald', sans-serif", fontSize: "clamp(2.5rem, 5vw, 3.8rem)", lineHeight: 1, marginTop: "2px" }}>
