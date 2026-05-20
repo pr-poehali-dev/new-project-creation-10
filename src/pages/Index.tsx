@@ -410,7 +410,7 @@ export default function Index() {
                 </div>
               </div>
               {[
-                { icon: "Mail", label: "Email", value: "info@adi-reklama.ru" },
+                { icon: "Mail", label: "Email", value: "adi_056@mail.ru" },
                 { icon: "MapPin", label: "Адрес", value: "г. Москва, ул. Примерная, д. 1" },
                 { icon: "Clock", label: "Режим работы", value: "Пн–Пт: 9:00–18:00" },
               ].map((c, i) => (
