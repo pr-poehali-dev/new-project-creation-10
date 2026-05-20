@@ -176,8 +176,8 @@ export default function Index() {
                   "ПЕЧАТЬ ФОТО",
                   "ПЕЧАТЬ БОЛЬШИХ ФОРМАТОВ",
                 ].map((item, i) => (
-                  <li key={i} className="flex items-start gap-2 font-bold text-white"
-                    style={{ fontFamily: "'Oswald', sans-serif", fontSize: "clamp(0.75rem, 1.4vw, 1rem)", letterSpacing: "0.03em" }}>
+                  <li key={i} className="flex items-start gap-2 text-white"
+                    style={{ fontFamily: "'Oswald', sans-serif", fontSize: "clamp(0.9rem, 1.7vw, 1.2rem)", fontWeight: 400, letterSpacing: "0.04em" }}>
                     <span style={{ color: YELLOW, marginTop: "2px" }}>—</span>
                     {item}
                   </li>
@@ -224,8 +224,8 @@ export default function Index() {
                   "ПЕЧАТИ И ШТАМПЫ",
                   "СТЕНДЫ. БАННЕРЫ",
                 ].map((item, i) => (
-                  <li key={i} className="flex items-start gap-2 font-bold text-white"
-                    style={{ fontFamily: "'Oswald', sans-serif", fontSize: "clamp(0.75rem, 1.4vw, 1rem)", letterSpacing: "0.03em" }}>
+                  <li key={i} className="flex items-start gap-2 text-white"
+                    style={{ fontFamily: "'Oswald', sans-serif", fontSize: "clamp(0.9rem, 1.7vw, 1.2rem)", fontWeight: 400, letterSpacing: "0.04em" }}>
                     <span style={{ color: YELLOW, marginTop: "2px" }}>—</span>
                     {item}
                   </li>
