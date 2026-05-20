@@ -248,7 +248,7 @@ export default function Index() {
                 <div style={{ fontFamily: "'Golos Text', sans-serif", fontSize: "clamp(0.8rem, 1.4vw, 1rem)", fontWeight: 600, letterSpacing: "0.35em", color: YELLOW, whiteSpace: "nowrap", fontStretch: "expanded" }}>
                   РЕКЛАМНАЯ КОМПАНИЯ
                 </div>
-                <div className="font-black text-white" style={{ fontFamily: "'Oswald', sans-serif", fontSize: "clamp(2.5rem, 5vw, 3.8rem)", lineHeight: 1, marginTop: "2px" }}>
+                <div className="font-black text-white" style={{ fontFamily: "'Oswald', sans-serif", fontSize: "clamp(3.5rem, 7vw, 5.5rem)", lineHeight: 1, marginTop: "2px", letterSpacing: "-0.02em" }}>
                   АДИ
                 </div>
               </div>
