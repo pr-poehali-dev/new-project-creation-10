@@ -396,26 +396,7 @@ export default function Index() {
         </div>
       </section>
 
-      {/* WHY US — red band */}
-      <section className="py-20 px-6" style={{ background: RED }}>
-        <div className="max-w-7xl mx-auto grid md:grid-cols-3 gap-8">
-          {[
-            { icon: "Clock", title: "Срочная печать", desc: "Выполняем заказы от 24 часов без потери качества" },
-            { icon: "Shield", title: "Гарантия качества", desc: "Проверка каждого заказа перед отгрузкой, работаем по договору" },
-            { icon: "Headphones", title: "Персональный менеджер", desc: "Ведём ваш проект от замера до установки" },
-          ].map((item, i) => (
-            <div key={i} className="flex gap-5 items-start">
-              <div className="w-12 h-12 rounded-xl flex items-center justify-center shrink-0" style={{ background: "rgba(0,0,0,0.2)" }}>
-                <Icon name={item.icon} size={24} style={{ color: YELLOW }} />
-              </div>
-              <div>
-                <h3 className="font-bold text-lg mb-1 text-white" style={{ fontFamily: "'Oswald', sans-serif" }}>{item.title}</h3>
-                <p className="text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.8)" }}>{item.desc}</p>
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
+
 
       {/* CONTACTS */}
       <section id="contacts" className="py-24 px-6" style={{ background: "#161010" }}>
