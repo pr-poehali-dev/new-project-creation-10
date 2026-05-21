@@ -402,6 +402,21 @@ const PORTFOLIO = [
     title: "Стенд «Профориентация» с гербом России",
     category: "Таблички и стенды",
   },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/511e5a51-c457-41f6-a154-6584ca60f242.jpg",
+    title: "Флаер и визитка «Minbayeva Diana» эпиляция",
+    category: "Полиграфия",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/b7a49fe0-e41a-4604-a98d-7d44f35b9392.jpg",
+    title: "Сертификат, визитка и купон студии эпиляции Ерисовой",
+    category: "Полиграфия",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/d4837c2c-6886-4fae-8615-1c09bd8f12f0.jpg",
+    title: "Подарочный сертификат на фотосессию «Kristina foto»",
+    category: "Полиграфия",
+  },
 ];
 
 const STATS = [
