@@ -212,6 +212,31 @@ const PORTFOLIO = [
     title: "Наклейки Enjoy",
     category: "Наклейки",
   },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/f8545c41-bed2-4c6e-bf49-c6cd13f3e8d5.jpg",
+    title: "Штамп «Вкусная ТЕМА»",
+    category: "Печати и штампы",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/d5b03d3a-4d35-4d47-b90b-1f99f2ab4a48.jpg",
+    title: "Автоматический штамп «Ремонт квартир»",
+    category: "Печати и штампы",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/3880aa1e-d4ad-41e9-a6c0-8246a110f316.jpg",
+    title: "Штамп «Le Coin Parfume»",
+    category: "Печати и штампы",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/439e33c9-c45b-44fa-abf1-236ede8de2dc.jpg",
+    title: "Деревянный штамп «11.11stoore»",
+    category: "Печати и штампы",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/91ab86f8-684f-49ff-8748-3cbeb65592ad.jpg",
+    title: "Круглая печать ИП «Опачки»",
+    category: "Печати и штампы",
+  },
 ];
 
 const STATS = [
