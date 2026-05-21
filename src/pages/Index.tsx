@@ -113,6 +113,11 @@ const PORTFOLIO = [
     category: "Наружная реклама",
   },
   {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/4e560653-fe5f-479b-989b-5a4befce32ad.jpg",
+    title: "Псевдообъёмные буквы «Союз застройщиков»",
+    category: "Наружная реклама",
+  },
+  {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/28fcca04-761f-4bf0-8086-d102eb778d90.jpg",
     title: "Вывеска «Буль-Буль»",
     category: "Наружная реклама",
