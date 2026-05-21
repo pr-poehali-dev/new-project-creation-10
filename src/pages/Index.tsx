@@ -108,6 +108,11 @@ const PORTFOLIO = [
     category: "Печать фото",
   },
   {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/19c7fc2a-c229-45ae-95e6-555010a3638a.jpg",
+    title: "Оклейка окон и рекламная растяжка-баннер",
+    category: "Наружная реклама",
+  },
+  {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/28fcca04-761f-4bf0-8086-d102eb778d90.jpg",
     title: "Вывеска «Буль-Буль»",
     category: "Наружная реклама",
