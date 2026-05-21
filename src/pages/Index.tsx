@@ -447,6 +447,16 @@ const PORTFOLIO = [
     title: "Фотоколлаж на холсте",
     category: "Печать фото",
   },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/b8003fe5-30c3-417e-8030-3f381b7d9f39.jpg",
+    title: "Акриловые фотомагниты с любимыми снимками",
+    category: "Фотомагниты",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/fc4a4130-2757-449b-aa77-9c1d4bd5e799.jpg",
+    title: "Гибкие фотомагниты",
+    category: "Фотомагниты",
+  },
 ];
 
 const STATS = [
