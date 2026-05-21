@@ -362,6 +362,31 @@ const PORTFOLIO = [
     title: "Табличка режима работы DG",
     category: "Таблички и стенды",
   },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/aad64ec5-5641-40a2-b8b7-5e1656440e39.jpg",
+    title: "Листовка и визитки «SharEL» шары и фотозоны",
+    category: "Полиграфия",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/b525a78b-4adf-4065-982a-7e42b275fd0f.jpg",
+    title: "Листовка «English People» — реферальная программа",
+    category: "Полиграфия",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/49bd46ca-fd2c-4853-bbc1-c366398e1b46.jpg",
+    title: "Абонемент и визитка «Almira Mirmanova»",
+    category: "Полиграфия",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/ee2eea43-e7d9-458e-8e6b-550236d84fa9.jpg",
+    title: "Памятка по уходу после эпиляции «Olga Stolyarova»",
+    category: "Полиграфия",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/d1e1675b-579d-437d-957f-b68c8b53bbac.jpg",
+    title: "Визитка для ателье",
+    category: "Полиграфия",
+  },
 ];
 
 const STATS = [
