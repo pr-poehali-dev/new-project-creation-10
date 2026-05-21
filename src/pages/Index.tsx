@@ -287,6 +287,31 @@ const PORTFOLIO = [
     title: "Акриловые фотомагниты",
     category: "Фотомагниты",
   },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/66a5509c-e211-4d91-83fd-a3cd7749b08f.jpg",
+    title: "Адресная табличка «Заречная»",
+    category: "Таблички и стенды",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/8b73462f-cc32-4b59-8163-4c5eac593ca3.jpg",
+    title: "Адресная табличка «Воровского»",
+    category: "Таблички и стенды",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/bc96ec47-8687-4f94-8847-346bae47c0f4.jpg",
+    title: "Адресная табличка «Апрельская» с птицами",
+    category: "Таблички и стенды",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/86386123-4769-4f8f-b8db-776188506a4d.jpg",
+    title: "Адресная табличка «Пражская» с котом",
+    category: "Таблички и стенды",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/200294f9-ba1a-497f-99cb-12f5d90c7ae1.jpg",
+    title: "Адресная табличка «Волжская» с овчаркой",
+    category: "Таблички и стенды",
+  },
 ];
 
 const STATS = [
