@@ -437,6 +437,16 @@ const PORTFOLIO = [
     title: "Круглые наклейки «Face Sweets»",
     category: "Наклейки",
   },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/90421671-88c4-4993-8506-88678eb392f9.jpg",
+    title: "Печать фотографий",
+    category: "Печать фото",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/dd4b2cb8-c863-4b2d-b462-7ae67c6e7fd2.jpg",
+    title: "Фотоколлаж на холсте",
+    category: "Печать фото",
+  },
 ];
 
 const STATS = [
