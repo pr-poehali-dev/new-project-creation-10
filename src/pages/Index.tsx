@@ -30,6 +30,11 @@ const SERVICES = [
     desc: "Печать фотографий любых форматов, фото на холсте, фото в стиле «Полароид».",
   },
   {
+    icon: "Magnet",
+    title: "Фотомагниты",
+    desc: "Акриловые фотомагниты с вашим фото — оригинальный подарок или сувенир на память.",
+  },
+  {
     icon: "RectangleHorizontal",
     title: "Таблички и стенды",
     desc: "Офисные, адресные таблички, таблички режима работы, стенды для школ и организаций, магазинов.",
@@ -276,6 +281,16 @@ const PORTFOLIO = [
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/91ab86f8-684f-49ff-8748-3cbeb65592ad.jpg",
     title: "Круглая печать ИП «Опачки»",
     category: "Печати и штампы",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/dc89ab76-7091-443b-9e3c-c0b97c022df0.jpg",
+    title: "Печать фото на холсте",
+    category: "Печать фото",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/34c17b8c-8d68-47a2-9428-b8ae37667c77.jpg",
+    title: "Акриловые фотомагниты",
+    category: "Фотомагниты",
   },
 ];
 
