@@ -337,6 +337,31 @@ const PORTFOLIO = [
     title: "Чёрные визитки с золотом «Оренметры»",
     category: "Полиграфия",
   },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/1edc592a-0b28-4840-9243-021aafe668d9.jpg",
+    title: "Табличка «Массажный кабинет» тёмная",
+    category: "Таблички и стенды",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/5f1027a2-b30a-4339-9f6d-754e24149b6c.jpg",
+    title: "Табличка «Массажный кабинет» бордовая",
+    category: "Таблички и стенды",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/6cec990e-09d7-429d-8cfc-2f884124f83c.jpg",
+    title: "Вывеска «Мясо & Рыба»",
+    category: "Таблички и стенды",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/5d6ed765-cce1-40f5-9558-2c66a4885039.jpg",
+    title: "Таблички «Развивашка» и «PerezagruzkA»",
+    category: "Таблички и стенды",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/61bf28ee-145b-4c0b-963c-914f1568212b.jpg",
+    title: "Табличка режима работы DG",
+    category: "Таблички и стенды",
+  },
 ];
 
 const STATS = [
