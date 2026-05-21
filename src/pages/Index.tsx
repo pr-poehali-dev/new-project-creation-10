@@ -417,6 +417,26 @@ const PORTFOLIO = [
     title: "Подарочный сертификат на фотосессию «Kristina foto»",
     category: "Полиграфия",
   },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/cc4914cd-37f8-4582-9f60-29b44e2f8963.jpg",
+    title: "Наклейки «ВкусЛета» — фрукты и ягоды",
+    category: "Наклейки",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/eec420ae-5692-4756-ab6d-a91b4fe9c563.jpg",
+    title: "Наклейки «Greenery Micro» для микрозелени",
+    category: "Наклейки",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/6f409f36-8fbb-4842-bf6a-5d136d0536e7.jpg",
+    title: "Круглые наклейки «Саракташ» вывоз вторсырья",
+    category: "Наклейки",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/c8c15fc7-9a16-48a5-862d-fa40fdc22288.jpg",
+    title: "Круглые наклейки «Face Sweets»",
+    category: "Наклейки",
+  },
 ];
 
 const STATS = [
