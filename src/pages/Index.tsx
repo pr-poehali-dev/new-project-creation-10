@@ -387,6 +387,21 @@ const PORTFOLIO = [
     title: "Визитка для ателье",
     category: "Полиграфия",
   },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/312641ef-1097-4e4e-a740-75d90089c2dc.jpg",
+    title: "Информационный стенд «УК Этажи»",
+    category: "Таблички и стенды",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/f1624524-5b03-414e-b2c2-9ee0ac760e18.jpg",
+    title: "Информационный стенд красный",
+    category: "Таблички и стенды",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/6ee08054-a112-4da5-b06d-03a58b0c96c0.jpg",
+    title: "Стенд «Профориентация» с гербом России",
+    category: "Таблички и стенды",
+  },
 ];
 
 const STATS = [
