@@ -213,6 +213,31 @@ const PORTFOLIO = [
     category: "Наклейки",
   },
   {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/f6422bd7-662c-4b0d-ba91-088c94f910e5.jpg",
+    title: "Вывеска «Айсберг — соляная пещера»",
+    category: "Наружная реклама",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/3e55923d-254d-4f02-a598-0c27a06d0e5d.jpg",
+    title: "Оклейка витрин магазина кухонь",
+    category: "Наружная реклама",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/23c39606-5452-4e0e-82a6-faf59fdce36e.jpg",
+    title: "Оклейка витрин кафе",
+    category: "Наружная реклама",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/23b386d2-b975-4748-856e-80d52d326fb4.jpg",
+    title: "Баннер «Буль-Буль» сеть центров плавания",
+    category: "Наружная реклама",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/da2d978a-9816-449a-982d-28d48cdda666.jpg",
+    title: "Баннер «Айсберг — островок здоровья»",
+    category: "Наружная реклама",
+  },
+  {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/f8545c41-bed2-4c6e-bf49-c6cd13f3e8d5.jpg",
     title: "Штамп «Вкусная ТЕМА»",
     category: "Печати и штампы",
