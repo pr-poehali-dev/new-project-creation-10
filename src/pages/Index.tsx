@@ -238,6 +238,21 @@ const PORTFOLIO = [
     category: "Наружная реклама",
   },
   {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/bef8e844-6ea5-44ab-abbc-d337b02d81dd.jpg",
+    title: "Оклейка двери «Телефонная будка» English People",
+    category: "Наружная реклама",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/d9dd3187-cd7c-4837-a674-9b577fdee041.jpg",
+    title: "Наклейка на дверь «English People»",
+    category: "Наружная реклама",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/b738725b-fccc-4e1c-af33-bf7897ae72a3.jpg",
+    title: "Брендирование стойки ресепшн «English People»",
+    category: "Наружная реклама",
+  },
+  {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/f8545c41-bed2-4c6e-bf49-c6cd13f3e8d5.jpg",
     title: "Штамп «Вкусная ТЕМА»",
     category: "Печати и штампы",
