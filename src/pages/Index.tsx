@@ -167,6 +167,51 @@ const PORTFOLIO = [
     title: "Адресная табличка «А. Ландо»",
     category: "Таблички и стенды",
   },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/7fd7f6a8-2a2f-4202-a90a-7e92f2defee3.jpg",
+    title: "Адресная табличка «Камская 64»",
+    category: "Таблички и стенды",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/b28774cd-48e9-4074-83f3-254233194449.jpg",
+    title: "Адресная табличка «Крымская 13»",
+    category: "Таблички и стенды",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/29d57842-ca3b-41a7-9f5c-ecf6d5f392e5.jpg",
+    title: "Адресная табличка «Тихая 353»",
+    category: "Таблички и стенды",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/91513d14-e29e-4f2b-8948-d30b3f758a43.jpg",
+    title: "Адресная табличка «Вишнёвая 27»",
+    category: "Таблички и стенды",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/06ea320e-4862-4ca2-bd7b-2fd1b12a2603.jpg",
+    title: "Наклейки с логотипом АДИ",
+    category: "Наклейки",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/9894e474-399d-4117-991a-e2b7968580f3.jpg",
+    title: "Наклейки «Отопление»",
+    category: "Наклейки",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/cc48c477-d2e9-4596-9e49-e031940d25d9.jpg",
+    title: "Наклейки Mira Handmade56",
+    category: "Наклейки",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/cc1298b2-b149-4f26-a3a0-6c08ec897469.jpg",
+    title: "Наклейки «Замена стеклопакетов 56»",
+    category: "Наклейки",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/e54ca058-cd24-459b-b3dc-3b66ace74dcd.jpg",
+    title: "Наклейки Enjoy",
+    category: "Наклейки",
+  },
 ];
 
 const STATS = [
