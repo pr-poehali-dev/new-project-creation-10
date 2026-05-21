@@ -457,6 +457,26 @@ const PORTFOLIO = [
     title: "Гибкие фотомагниты",
     category: "Фотомагниты",
   },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/07fa8e30-17bc-4505-b740-d7689b65b8c4.jpg",
+    title: "Штамп с логотипом «Lisavar»",
+    category: "Печати и штампы",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/f0bab7d0-9ee5-45eb-9980-28ad93ac3640.jpg",
+    title: "Штамп «Goltni Photo»",
+    category: "Печати и штампы",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/0386ddca-5171-4190-b9c5-503337c65dc5.jpg",
+    title: "Штамп-факсимиле с подписью",
+    category: "Печати и штампы",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/487ce113-0fc1-4a7e-9837-00b219371875.jpg",
+    title: "Автоматическая печать «ADI»",
+    category: "Печати и штампы",
+  },
 ];
 
 const STATS = [
