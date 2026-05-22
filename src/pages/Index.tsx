@@ -858,6 +858,67 @@ export default function Index() {
         </div>
       </section>
 
+      {/* HOW WE WORK */}
+      <section className="py-20 px-6" style={{ background: "#111" }}>
+        <div className="max-w-7xl mx-auto">
+          <div className="mb-12">
+            <p className="text-sm font-medium uppercase tracking-widest mb-3" style={{ color: YELLOW }}>Процесс</p>
+            <h2 style={{ fontFamily: "'Oswald', sans-serif", fontSize: "clamp(2rem,4vw,3rem)", fontWeight: 700, lineHeight: 1.1 }}>
+              КАК МЫ РАБОТАЕМ
+            </h2>
+            <div className="mt-4 w-16 h-1 rounded" style={{ background: RED }} />
+            <p className="mt-4 text-base" style={{ color: "#aaa" }}>Все цены и сроки обсуждаются с каждым клиентом индивидуально</p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+            {/* Сценарий 1 */}
+            <div className="rounded-2xl p-8" style={{ background: "#1a1a1a", border: "1px solid #2a2a2a" }}>
+              <p className="text-xs font-semibold uppercase tracking-widest mb-5" style={{ color: YELLOW }}>Без готового макета</p>
+              <div className="space-y-5">
+                {[
+                  { n: "01", title: "Заявка", desc: "Оставляете заявку — мы связываемся и уточняем детали заказа" },
+                  { n: "02", title: "Обсуждение цены и сроков", desc: "Вместе определяем стоимость, материалы и сроки изготовления" },
+                  { n: "03", title: "Оплата", desc: "Вносите оплату и мы приступаем к работе" },
+                  { n: "04", title: "Утверждение и выдача", desc: "После изготовления согласовываете результат и забираете заказ" },
+                ].map((step) => (
+                  <div key={step.n} className="flex gap-4 items-start">
+                    <div className="shrink-0 w-10 h-10 rounded-full flex items-center justify-center font-bold text-sm" style={{ background: RED, color: "#fff", fontFamily: "'Oswald', sans-serif" }}>{step.n}</div>
+                    <div>
+                      <div className="font-semibold mb-1" style={{ color: "#fff", fontFamily: "'Oswald', sans-serif", fontSize: "1.05rem" }}>{step.title}</div>
+                      <div className="text-sm leading-relaxed" style={{ color: "#aaa" }}>{step.desc}</div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Сценарий 2 */}
+            <div className="rounded-2xl p-8" style={{ background: "#1a1a1a", border: `1px solid ${RED}` }}>
+              <p className="text-xs font-semibold uppercase tracking-widest mb-5" style={{ color: YELLOW }}>С готовым макетом</p>
+              <div className="space-y-5">
+                {[
+                  { n: "01", title: "Заявка + макет", desc: "Присылаете готовый макет и параметры заказа" },
+                  { n: "02", title: "Обсуждение цены и сроков", desc: "Проверяем файл, уточняем стоимость и сроки" },
+                  { n: "03", title: "Оплата", desc: "Вносите оплату и мы сразу запускаем в производство" },
+                  { n: "04", title: "Получение заказа", desc: "Забираете готовый заказ в согласованные сроки" },
+                ].map((step) => (
+                  <div key={step.n} className="flex gap-4 items-start">
+                    <div className="shrink-0 w-10 h-10 rounded-full flex items-center justify-center font-bold text-sm" style={{ background: YELLOW, color: "#111", fontFamily: "'Oswald', sans-serif" }}>{step.n}</div>
+                    <div>
+                      <div className="font-semibold mb-1" style={{ color: "#fff", fontFamily: "'Oswald', sans-serif", fontSize: "1.05rem" }}>{step.title}</div>
+                      <div className="text-sm leading-relaxed" style={{ color: "#aaa" }}>{step.desc}</div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+              <div className="mt-6 p-4 rounded-xl text-sm" style={{ background: "#111", color: "#aaa", border: "1px solid #2a2a2a" }}>
+                💡 <strong style={{ color: "#fff" }}>Важно:</strong> макет должен быть в высоком разрешении и подходящем формате. Уточните требования перед отправкой.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* PORTFOLIO */}
       <section id="portfolio" className="py-24 px-6" style={{ background: "#111" }}>
         <div className="max-w-7xl mx-auto">
