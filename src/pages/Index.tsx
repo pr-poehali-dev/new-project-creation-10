@@ -5,6 +5,7 @@ const NAV_LINKS = [
   { id: "home", label: "Главная" },
   { id: "services", label: "Услуги" },
   { id: "about", label: "О компании" },
+  { id: "how", label: "Как мы работаем" },
   { id: "portfolio", label: "Портфолио" },
   { id: "contacts", label: "Контакты" },
 ];
@@ -859,7 +860,7 @@ export default function Index() {
       </section>
 
       {/* HOW WE WORK */}
-      <section className="py-20 px-6" style={{ background: "#111" }}>
+      <section id="how" className="py-20 px-6" style={{ background: "#111" }}>
         <div className="max-w-7xl mx-auto">
           <div className="mb-12">
             <p className="text-sm font-medium uppercase tracking-widest mb-3" style={{ color: YELLOW }}>Процесс</p>
