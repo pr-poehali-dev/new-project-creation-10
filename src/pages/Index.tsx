@@ -6,6 +6,7 @@ const NAV_LINKS = [
   { id: "services", label: "Услуги" },
   { id: "about", label: "О компании" },
   { id: "how", label: "Как мы работаем" },
+  { id: "sales", label: "🔥 Акции", highlight: true },
   { id: "portfolio", label: "Портфолио" },
   { id: "contacts", label: "Контакты" },
 ];
@@ -573,18 +574,27 @@ export default function Index() {
           </div>
 
           {/* Desktop nav */}
-          <nav className="hidden md:flex items-center gap-8">
+          <nav className="hidden md:flex items-center gap-6">
             {NAV_LINKS.map((l) => (
-              <button
-                key={l.id}
-                onClick={() => scrollTo(l.id)}
-                className="text-sm font-medium transition-colors"
-                style={{ color: "rgba(245,245,245,0.7)", fontFamily: "'Golos Text', sans-serif" }}
-                onMouseEnter={e => (e.currentTarget.style.color = YELLOW)}
-                onMouseLeave={e => (e.currentTarget.style.color = "rgba(245,245,245,0.7)")}
-              >
-                {l.label}
-              </button>
+              l.highlight
+                ? <button
+                    key={l.id}
+                    onClick={() => scrollTo(l.id)}
+                    className="text-sm font-bold transition-all hover:scale-105 px-3 py-1 rounded-md animate-pulse"
+                    style={{ background: RED, color: YELLOW, fontFamily: "'Oswald', sans-serif", letterSpacing: "0.05em" }}
+                  >
+                    {l.label}
+                  </button>
+                : <button
+                    key={l.id}
+                    onClick={() => scrollTo(l.id)}
+                    className="text-sm font-medium transition-colors"
+                    style={{ color: "rgba(245,245,245,0.7)", fontFamily: "'Golos Text', sans-serif" }}
+                    onMouseEnter={e => (e.currentTarget.style.color = YELLOW)}
+                    onMouseLeave={e => (e.currentTarget.style.color = "rgba(245,245,245,0.7)")}
+                  >
+                    {l.label}
+                  </button>
             ))}
             <a
               href="https://www.avito.ru/brands/e87ba7201c197c661b09849dd41c83d3?src=sharing"
@@ -916,6 +926,73 @@ export default function Index() {
                 💡 <strong style={{ color: "#fff" }}>Важно:</strong> макет должен быть в высоком разрешении и подходящем формате. Уточните требования перед отправкой.
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* SALES */}
+      <section id="sales" className="py-20 px-6" style={{ background: "#1a0a0a" }}>
+        <div className="max-w-7xl mx-auto">
+          <div className="mb-12">
+            <p className="text-sm font-bold uppercase tracking-widest mb-3" style={{ color: YELLOW }}>Выгодные предложения</p>
+            <h2 style={{ fontFamily: "'Oswald', sans-serif", fontSize: "clamp(2rem,4vw,3rem)", fontWeight: 700, lineHeight: 1.1 }}>
+              🔥 АКЦИИ
+            </h2>
+            <div className="mt-4 w-16 h-1 rounded" style={{ background: YELLOW }} />
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            {[
+              {
+                img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/52773039-924a-4482-8095-7dd2f57163df.jpg",
+                title: "Визитки",
+                price: "2 500 ₽",
+                qty: "1 000 шт",
+                note: "Бумага 300 г/м², цветная печать, ровная нарезка. Цена за печать без макета.",
+              },
+              {
+                img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/5a1b17fe-710f-4ebb-802a-a557a444ce50.jpg",
+                title: "Флаеры 1/3 А4",
+                price: "4 000 ₽",
+                qty: "1 000 шт",
+                note: "Односторонние. Цена за печать с готового макета.",
+              },
+              {
+                img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/3141ad39-559b-4966-a1fc-64191f877877.jpg",
+                title: "Листовки 10×15",
+                price: "1 500 ₽",
+                qty: "300 шт",
+                note: "Односторонние. Цена за печать с готового макета.",
+              },
+              {
+                img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/67c79b75-8745-44c6-a95e-975b8224ebb7.jpg",
+                title: "Уголок потребителя",
+                price: "2 160 ₽",
+                qty: "вместо 2 500 ₽",
+                note: "Цветной, на 6 карманов. Доступен в разных цветах.",
+              },
+            ].map((item) => (
+              <div key={item.title} className="rounded-2xl overflow-hidden flex flex-col" style={{ background: "#111", border: `2px solid ${RED}` }}>
+                <div className="relative">
+                  <img src={item.img} alt={item.title} className="w-full h-52 object-cover" />
+                  <div className="absolute top-3 left-3 px-3 py-1 rounded-full text-xs font-bold uppercase" style={{ background: RED, color: YELLOW, fontFamily: "'Oswald', sans-serif" }}>
+                    АКЦИЯ
+                  </div>
+                </div>
+                <div className="p-5 flex flex-col flex-1">
+                  <div className="text-lg font-bold mb-1" style={{ fontFamily: "'Oswald', sans-serif", color: "#fff" }}>{item.title}</div>
+                  <div className="text-2xl font-bold mb-0.5" style={{ color: YELLOW, fontFamily: "'Oswald', sans-serif" }}>{item.price}</div>
+                  <div className="text-sm mb-3" style={{ color: RED, fontWeight: 600 }}>{item.qty}</div>
+                  <div className="text-xs leading-relaxed mt-auto" style={{ color: "#888" }}>{item.note}</div>
+                  <button
+                    onClick={() => scrollTo("contacts")}
+                    className="mt-4 w-full py-2.5 rounded-lg font-semibold text-sm transition-all hover:scale-105"
+                    style={{ background: RED, color: "#fff", fontFamily: "'Oswald', sans-serif", letterSpacing: "0.05em" }}
+                  >
+                    ЗАКАЗАТЬ
+                  </button>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>
