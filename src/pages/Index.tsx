@@ -790,6 +790,17 @@ export default function Index() {
               ))}
             </div>
           </div>
+          <div className="mt-8 text-center">
+            <a
+              href="https://www.avito.ru/brands/e87ba7201c197c661b09849dd41c83d3?src=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-3 px-6 py-3 rounded-xl font-semibold transition-all hover:scale-105"
+              style={{ background: "#00aaff", color: "#fff", fontSize: "1rem" }}
+            >
+              ⭐ 149 отзывов на Авито
+            </a>
+          </div>
         </div>
       </section>
 
@@ -982,6 +993,11 @@ export default function Index() {
               className="text-xs transition-colors hover:underline"
               style={{ color: "#5b9bd5" }}>
               ВКонтакте: vk.ru/adi56ru
+            </a>
+            <a href="https://www.avito.ru/brands/e87ba7201c197c661b09849dd41c83d3?src=sharing" target="_blank" rel="noopener noreferrer"
+              className="text-xs transition-colors hover:underline"
+              style={{ color: "#00aaff" }}>
+              ⭐ 149 отзывов на Авито
             </a>
           </div>
           <div className="flex gap-6">
