@@ -540,6 +540,15 @@ export default function Index() {
                 {l.label}
               </button>
             ))}
+            <a
+              href="https://www.avito.ru/brands/e87ba7201c197c661b09849dd41c83d3?src=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hidden lg:flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold transition-all hover:scale-105"
+              style={{ background: "#00aaff22", border: "1px solid #00aaff55", color: "#00aaff" }}
+            >
+              ⭐ 149 отзывов
+            </a>
             <button
               onClick={() => scrollTo("contacts")}
               className="px-5 py-2 rounded font-semibold text-sm transition-all hover:scale-105"
