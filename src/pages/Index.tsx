@@ -4,6 +4,7 @@ import Icon from "@/components/ui/icon";
 const NAV_LINKS = [
   { id: "home", label: "Главная" },
   { id: "services", label: "Услуги" },
+  { id: "about", label: "О компании" },
   { id: "portfolio", label: "Портфолио" },
   { id: "contacts", label: "Контакты" },
 ];
