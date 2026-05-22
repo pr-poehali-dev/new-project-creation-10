@@ -482,7 +482,7 @@ const PORTFOLIO = [
 const STATS = [
   { value: "2013", label: "год основания" },
   { value: "800+", label: "выполненных проектов" },
-  { value: "350+", label: "клиентов" },
+  { value: "3500+", label: "клиентов" },
   { value: "24ч", label: "срочная печать" },
 ];
 
@@ -754,6 +754,40 @@ export default function Index() {
                 </p>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ABOUT */}
+      <section id="about" className="py-20 px-6" style={{ background: "#1a1a1a" }}>
+        <div className="max-w-7xl mx-auto">
+          <div className="mb-10">
+            <p className="text-sm font-medium uppercase tracking-widest mb-3" style={{ color: YELLOW }}>О нас</p>
+            <h2 style={{ fontFamily: "'Oswald', sans-serif", fontSize: "clamp(2rem,4vw,3rem)", fontWeight: 700, lineHeight: 1.1 }}>
+              О КОМПАНИИ
+            </h2>
+            <div className="mt-4 w-16 h-1 rounded" style={{ background: RED }} />
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div className="space-y-5">
+              <p className="text-lg leading-relaxed" style={{ color: "#e0e0e0" }}>
+                Рекламная компания <strong style={{ color: "#fff" }}>АДИ</strong> работает с <strong style={{ color: YELLOW }}>2013 года</strong> и за это время стала одной из ведущих рекламных компаний Оренбурга и Оренбургской области.
+              </p>
+              <p className="text-lg leading-relaxed" style={{ color: "#e0e0e0" }}>
+                За годы работы мы выполнили заказы для более чем <strong style={{ color: YELLOW }}>3 500 клиентов</strong> — от частных лиц до крупных предприятий региона.
+              </p>
+              <p className="text-lg leading-relaxed" style={{ color: "#e0e0e0" }}>
+                Мы работаем как с <strong style={{ color: "#fff" }}>физическими</strong>, так и с <strong style={{ color: "#fff" }}>юридическими лицами</strong>. Оформляем все необходимые документы, работаем по договору и выставляем счета.
+              </p>
+            </div>
+            <div className="grid grid-cols-2 gap-6">
+              {STATS.map((stat) => (
+                <div key={stat.label} className="rounded-xl p-6 text-center" style={{ background: "#222", border: "1px solid #333" }}>
+                  <div style={{ fontFamily: "'Oswald', sans-serif", fontSize: "2.5rem", fontWeight: 700, color: YELLOW }}>{stat.value}</div>
+                  <div className="mt-1 text-sm uppercase tracking-wider" style={{ color: "#aaa" }}>{stat.label}</div>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </section>
