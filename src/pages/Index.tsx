@@ -480,7 +480,7 @@ const PORTFOLIO = [
 ];
 
 const STATS = [
-  { value: "12+", label: "лет на рынке" },
+  { value: "2013", label: "год основания" },
   { value: "800+", label: "выполненных проектов" },
   { value: "350+", label: "клиентов" },
   { value: "24ч", label: "срочная печать" },
