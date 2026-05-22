@@ -478,6 +478,31 @@ const PORTFOLIO = [
     title: "Автоматическая печать «ADI»",
     category: "Печати и штампы",
   },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/55a0582a-f1da-4a9c-925e-81b125249c30.jpg",
+    title: "Баннер «Аренда»",
+    category: "Наружная реклама",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/797b6610-149c-4b57-a638-8f1c442381ab.jpg",
+    title: "Баннер «Новый пункт выдачи OZON»",
+    category: "Наружная реклама",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/0796e145-70c3-456c-8f88-8c7b1b3355a5.jpg",
+    title: "Вертикальный баннер «Шиномонтаж»",
+    category: "Наружная реклама",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/7c6709b4-ac51-4020-b933-859671bbf672.jpg",
+    title: "Баннер «Скоро открытие» Яндекс Маркет",
+    category: "Наружная реклама",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/231abcf6-5242-4c2f-81bf-088b1ca16896.jpg",
+    title: "Баннер «Шиномонтаж»",
+    category: "Наружная реклама",
+  },
 ];
 
 const STATS = [
