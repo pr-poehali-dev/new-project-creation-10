@@ -503,6 +503,26 @@ const PORTFOLIO = [
     title: "Баннер «Шиномонтаж»",
     category: "Наружная реклама",
   },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/431f82e3-5503-4305-b196-6f10115b9ce4.jpg",
+    title: "Баннер «Продажа. Аренда» на заборе",
+    category: "Наружная реклама",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/26cd6547-09c9-4805-9f2c-9955d141a4e4.jpg",
+    title: "Брендирование борта «Бурение скважин»",
+    category: "Наружная реклама",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/d49861bb-f80a-4d22-8182-1069fcf17422.jpg",
+    title: "Печать флага с гербом России",
+    category: "Наружная реклама",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/7376bfbd-ba67-4ea1-a3d7-9e6e667ed2b9.jpg",
+    title: "Брендирование борта «Промышленная Буровая Компания»",
+    category: "Наружная реклама",
+  },
 ];
 
 const STATS = [
