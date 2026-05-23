@@ -653,6 +653,11 @@ export default function Index() {
   const [form, setForm] = useState({ name: "", phone: "", message: "" });
   const [activeCategory, setActiveCategory] = useState("Все");
   const [lightbox, setLightbox] = useState<{ img: string; title: string } | null>(null);
+  const [openWorks, setOpenWorks] = useState<string[]>([]);
+
+  const toggleWorks = (title: string) => {
+    setOpenWorks((prev) => prev.includes(title) ? prev.filter((t) => t !== title) : [...prev, title]);
+  };
 
   const categories = ["Все", ...Array.from(new Set(PORTFOLIO.map((p) => p.category)))];
   const filteredPortfolio = activeCategory === "Все" ? PORTFOLIO : PORTFOLIO.filter((p) => p.category === activeCategory);
@@ -937,16 +942,18 @@ export default function Index() {
             <div className="mt-4 w-16 h-1 rounded" style={{ background: RED }} />
           </div>
 
-          <div className="flex flex-col gap-20">
+          <div className="flex flex-col gap-6">
             {SERVICES.map((s, i) => {
               const works = PORTFOLIO.filter((p) => p.category === s.title);
+              const isOpen = openWorks.includes(s.title);
               return (
-                <div key={i}>
-                  <div className="flex items-center gap-4 mb-6">
+                <div key={i} className="rounded-2xl overflow-hidden" style={{ border: "1px solid rgba(204,27,27,0.2)", background: "rgba(255,255,255,0.02)" }}>
+                  {/* Заголовок услуги */}
+                  <div className="flex items-center gap-4 p-6">
                     <div className="w-12 h-12 rounded-xl flex items-center justify-center shrink-0" style={{ background: `rgba(204,27,27,0.15)`, border: `1px solid rgba(204,27,27,0.3)` }}>
                       <Icon name={s.icon} size={24} style={{ color: RED }} />
                     </div>
-                    <div>
+                    <div className="flex-1">
                       <h3 className="font-bold text-2xl" style={{ fontFamily: "'Oswald', sans-serif", letterSpacing: "0.02em" }}>
                         {s.title}
                       </h3>
@@ -955,29 +962,39 @@ export default function Index() {
                       </p>
                     </div>
                   </div>
+
+                  {/* Кнопка «Наши работы» */}
                   {works.length > 0 && (
-                    <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
+                    <button
+                      onClick={() => toggleWorks(s.title)}
+                      className="w-full flex items-center justify-between px-6 py-4 font-bold text-sm transition-all"
+                      style={{ background: isOpen ? RED : "#fff", color: isOpen ? "#fff" : RED, fontFamily: "'Oswald', sans-serif", letterSpacing: "0.08em", fontSize: "1rem" }}
+                    >
+                      <span>НАШИ РАБОТЫ</span>
+                      <Icon name={isOpen ? "ChevronUp" : "ChevronDown"} size={20} />
+                    </button>
+                  )}
+
+                  {/* Галерея работ */}
+                  {isOpen && works.length > 0 && (
+                    <div className="p-4 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4" style={{ background: "#0d0808" }}>
                       {works.map((p, j) => (
                         <div
                           key={j}
-                          className="rounded-xl overflow-hidden cursor-pointer transition-all hover:scale-[1.02] hover:shadow-lg"
+                          className="rounded-xl overflow-hidden cursor-pointer transition-all hover:scale-[1.02]"
                           style={{ border: "1px solid rgba(204,27,27,0.25)" }}
                           onClick={() => setLightbox({ img: p.img, title: p.title })}
                         >
-                          <div className="w-full bg-black flex items-center justify-center" style={{ minHeight: "160px" }}>
-                            <img src={p.img} alt={p.title} className="w-full h-auto object-contain" style={{ maxHeight: "220px", pointerEvents: "none", userSelect: "none" }} draggable={false} onContextMenu={(e) => e.preventDefault()} />
+                          <div className="w-full bg-black flex items-center justify-center" style={{ minHeight: "140px" }}>
+                            <img src={p.img} alt={p.title} className="w-full h-auto object-contain" style={{ maxHeight: "200px", pointerEvents: "none", userSelect: "none" }} draggable={false} onContextMenu={(e) => e.preventDefault()} />
                           </div>
-                          <div className="p-3" style={{ background: "rgba(0,0,0,0.6)" }}>
-                            <h4 className="font-semibold text-xs leading-snug" style={{ fontFamily: "'Oswald', sans-serif", color: "#fff" }}>{p.title}</h4>
+                          <div className="p-2" style={{ background: "rgba(0,0,0,0.7)" }}>
+                            <h4 className="text-xs leading-snug" style={{ fontFamily: "'Oswald', sans-serif", color: "#fff" }}>{p.title}</h4>
                           </div>
                         </div>
                       ))}
                     </div>
                   )}
-                  {works.length === 0 && (
-                    <p className="text-sm italic" style={{ color: "rgba(245,245,245,0.3)" }}>Примеры работ скоро появятся</p>
-                  )}
-                  <div className="mt-8 h-px" style={{ background: "rgba(204,27,27,0.15)" }} />
                 </div>
               );
             })}
