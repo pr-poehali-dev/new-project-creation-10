@@ -50,6 +50,31 @@ const SERVICES = [
 
 const PORTFOLIO = [
   {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/9c5df591-19dd-4b9e-aee1-1fd40808e3a5.jpg",
+    title: "Логотип «One Love Studio»",
+    category: "Брендинг",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/0ed93a98-ca6b-4974-80d9-5167aa638b2a.jpg",
+    title: "Логотип «SOFI Nail Studio»",
+    category: "Брендинг",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/0643f889-19cc-4c3e-9648-65f1ee6aae2e.jpg",
+    title: "Логотип «Swan Wings» — изделия ручной работы",
+    category: "Брендинг",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/0095fdd3-93c6-473e-b00b-8a21b796e664.jpg",
+    title: "Логотип «ASTRA» — студия красоты",
+    category: "Брендинг",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/17de7415-b9e3-40af-9559-a5f7239f935f.jpg",
+    title: "Логотип «Большая перемена»",
+    category: "Брендинг",
+  },
+  {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/0402587c-a088-4a88-b84d-db1a98850520.jpg",
     title: "Тетрадь «Perfect Lashes» — базовый курс наращивания ресниц",
     category: "Полиграфия",
