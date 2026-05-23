@@ -50,6 +50,21 @@ const SERVICES = [
 
 const PORTFOLIO = [
   {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/f209baca-332c-443a-a5d5-30bea87e0d7d.jpg",
+    title: "Логотип «Экоматия»",
+    category: "Брендинг",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/991c5df2-1c60-4849-bebc-e486b94c5f76.jpg",
+    title: "Логотип «Yabloko» — студия красоты",
+    category: "Брендинг",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/3d0122fe-fa48-463b-984c-49674df0f880.jpg",
+    title: "Логотип «Звёздный»",
+    category: "Брендинг",
+  },
+  {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/717a96ec-a077-4c2e-af8d-b08b6b20bab6.jpg",
     title: "Логотип «Стася» — пошив детской одежды",
     category: "Брендинг",
