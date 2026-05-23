@@ -391,6 +391,31 @@ const PORTFOLIO = [
     category: "Полиграфия",
   },
   {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/d4a838cd-efce-4bc7-bf9e-403bab4cab64.jpg",
+    title: "Визитки для nail-мастера Светланы Шеиной",
+    category: "Полиграфия",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/2d0dfe19-43ba-4736-ac43-b29a701047a7.jpg",
+    title: "Визитки для барбера Eldar Israfilov",
+    category: "Полиграфия",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/e53f3aac-7ef3-4b5d-b2c1-29edca4857fd.jpg",
+    title: "Визитки «Мастер на час»",
+    category: "Полиграфия",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/d6555d05-0bf3-4a55-854a-6d170838ce43.jpg",
+    title: "Визитки «Клининговая компания»",
+    category: "Полиграфия",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/510c0747-56f8-4b1a-8b96-f2f787238760.jpg",
+    title: "Визитки «Остекление» и «Ремонт квартир»",
+    category: "Полиграфия",
+  },
+  {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/312641ef-1097-4e4e-a740-75d90089c2dc.jpg",
     title: "Информационный стенд «УК Этажи»",
     category: "Таблички и стенды",
