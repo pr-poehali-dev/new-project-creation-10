@@ -391,6 +391,26 @@ const PORTFOLIO = [
     category: "Полиграфия",
   },
   {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/443027e9-4559-416f-bd9c-7c030d1f2d99.jpg",
+    title: "Подарочный сертификат «Massage from Olga Petrova»",
+    category: "Полиграфия",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/36b28900-7729-43fc-bfd8-567f3bd458b5.jpg",
+    title: "Подарочный сертификат (фиолетовый)",
+    category: "Полиграфия",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/97823cfa-c5c7-46a4-ad83-ad92ef4e1b41.jpg",
+    title: "Подарочный сертификат «Beauty SPA»",
+    category: "Полиграфия",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/c653df1d-e67b-487d-af1e-5cbe8d15f9e0.jpg",
+    title: "Визитки «Flowers Sorochinsk»",
+    category: "Полиграфия",
+  },
+  {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/d4a838cd-efce-4bc7-bf9e-403bab4cab64.jpg",
     title: "Визитки для nail-мастера Светланы Шеиной",
     category: "Полиграфия",
