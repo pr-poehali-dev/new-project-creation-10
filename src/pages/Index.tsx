@@ -451,6 +451,31 @@ const PORTFOLIO = [
     category: "Таблички и стенды",
   },
   {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/24826337-1a05-45e5-8085-bd36334bc3f0.jpg",
+    title: "Табличка режим работы «Archer Repair»",
+    category: "Таблички и стенды",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/d415b609-1520-42f1-bf54-1b367c2eb5d8.jpg",
+    title: "Стенд «Колористика» — профессиональное окрашивание",
+    category: "Таблички и стенды",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/cf40f32e-9215-4a75-b0df-6f32251e7ce7.jpg",
+    title: "Стенд правила детской площадки",
+    category: "Таблички и стенды",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/be58e899-b6eb-439b-b9c2-fff9a4eef12e.jpg",
+    title: "Таблички «Осторожно злая собака» и «Видеонаблюдение»",
+    category: "Таблички и стенды",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/f3d4a534-5884-42c0-9b40-eb44d74dcdda.jpg",
+    title: "Табличка режим работы «Берёзка»",
+    category: "Таблички и стенды",
+  },
+  {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/511e5a51-c457-41f6-a154-6584ca60f242.jpg",
     title: "Флаер и визитка «Minbayeva Diana» эпиляция",
     category: "Полиграфия",
