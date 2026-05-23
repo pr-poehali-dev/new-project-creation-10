@@ -1132,7 +1132,7 @@ export default function Index() {
             </p>
             <div className="flex flex-col gap-4">
               <a
-                href="tg://resolve?phone=79619296728"
+                href="https://t.me/Adi_056m"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-3 py-4 rounded-xl font-bold text-base transition-all hover:scale-[1.02]"
