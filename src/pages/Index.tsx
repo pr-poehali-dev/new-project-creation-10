@@ -50,6 +50,31 @@ const SERVICES = [
 
 const PORTFOLIO = [
   {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/717a96ec-a077-4c2e-af8d-b08b6b20bab6.jpg",
+    title: "Логотип «Стася» — пошив детской одежды",
+    category: "Брендинг",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/9566820d-108b-4f13-8bda-9a2657632c15.jpg",
+    title: "Логотип «ТАЙ» — релакс-студия",
+    category: "Брендинг",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/b602d5e6-99d9-46a4-8922-04c3c327fa53.jpg",
+    title: "Логотип «Суши Like»",
+    category: "Брендинг",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/d0ee77ff-e12a-4c33-9b60-6bf640d829b3.jpg",
+    title: "Логотип «УмНарния» — центр детского развития",
+    category: "Брендинг",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/9b0041f4-481c-42a7-afbc-1256c0dd707b.jpg",
+    title: "Логотип «Чистота и Комфорт» — профессиональный клининг",
+    category: "Брендинг",
+  },
+  {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/53345fca-2f32-4de5-8259-809047e6118a.jpg",
     title: "Логотип «ВС РФ — Военная разведка»",
     category: "Брендинг",
