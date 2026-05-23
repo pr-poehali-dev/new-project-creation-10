@@ -50,6 +50,31 @@ const SERVICES = [
 
 const PORTFOLIO = [
   {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/53345fca-2f32-4de5-8259-809047e6118a.jpg",
+    title: "Логотип «ВС РФ — Военная разведка»",
+    category: "Брендинг",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/a1750d1a-08bf-4760-8284-d81f788c3f7c.jpg",
+    title: "Логотип «Ameli Collection»",
+    category: "Брендинг",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/ee76e242-fc19-429c-b4c3-00bfacba058e.jpg",
+    title: "Логотип «101 бампер» — кузовные детали",
+    category: "Брендинг",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/bb46327f-b0b2-4071-ab5d-b0faac435cd9.jpg",
+    title: "Логотип «Maximum» — школа музыки и танца",
+    category: "Брендинг",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/85672260-2106-44d3-9fa7-f8c3a1b885f4.jpg",
+    title: "Логотип «Территория красоты» Оксаны Пантелеевой",
+    category: "Брендинг",
+  },
+  {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/9c5df591-19dd-4b9e-aee1-1fd40808e3a5.jpg",
     title: "Логотип «One Love Studio»",
     category: "Брендинг",
