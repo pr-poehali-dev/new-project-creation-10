@@ -632,6 +632,7 @@ export default function Index() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [form, setForm] = useState({ name: "", phone: "", message: "" });
   const [activeCategory, setActiveCategory] = useState("Все");
+  const [lightbox, setLightbox] = useState<{ img: string; title: string } | null>(null);
 
   const categories = ["Все", ...Array.from(new Set(PORTFOLIO.map((p) => p.category)))];
   const filteredPortfolio = activeCategory === "Все" ? PORTFOLIO : PORTFOLIO.filter((p) => p.category === activeCategory);
@@ -643,6 +644,31 @@ export default function Index() {
 
   return (
     <div className="min-h-screen" style={{ background: "#111", color: "#f5f5f5", fontFamily: "'Golos Text', sans-serif" }}>
+
+      {/* LIGHTBOX */}
+      {lightbox && (
+        <div
+          className="fixed inset-0 z-[999] flex items-center justify-center p-4"
+          style={{ background: "rgba(0,0,0,0.92)" }}
+          onClick={() => setLightbox(null)}
+        >
+          <div className="relative max-w-4xl w-full" onClick={(e) => e.stopPropagation()}>
+            <button
+              onClick={() => setLightbox(null)}
+              className="absolute -top-10 right-0 text-white text-3xl font-bold hover:opacity-70 transition-opacity"
+            >✕</button>
+            <img
+              src={lightbox.img}
+              alt={lightbox.title}
+              className="w-full h-auto rounded-xl"
+              style={{ maxHeight: "80vh", objectFit: "contain", pointerEvents: "none", userSelect: "none" }}
+              onContextMenu={(e) => e.preventDefault()}
+              draggable={false}
+            />
+            <p className="text-center mt-3 text-sm" style={{ color: "rgba(255,255,255,0.6)" }}>{lightbox.title}</p>
+          </div>
+        </div>
+      )}
 
       {/* NAVBAR */}
       <header className="fixed top-0 left-0 right-0 z-50" style={{ background: "rgba(17,5,5,0.95)", backdropFilter: "blur(12px)", borderBottom: `2px solid ${RED}` }}>
@@ -912,9 +938,14 @@ export default function Index() {
                   {works.length > 0 && (
                     <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
                       {works.map((p, j) => (
-                        <div key={j} className="rounded-xl overflow-hidden" style={{ border: "1px solid rgba(204,27,27,0.25)" }}>
+                        <div
+                          key={j}
+                          className="rounded-xl overflow-hidden cursor-pointer transition-all hover:scale-[1.02] hover:shadow-lg"
+                          style={{ border: "1px solid rgba(204,27,27,0.25)" }}
+                          onClick={() => setLightbox({ img: p.img, title: p.title })}
+                        >
                           <div className="w-full bg-black flex items-center justify-center" style={{ minHeight: "160px" }}>
-                            <img src={p.img} alt={p.title} className="w-full h-auto object-contain" style={{ maxHeight: "220px" }} />
+                            <img src={p.img} alt={p.title} className="w-full h-auto object-contain" style={{ maxHeight: "220px", pointerEvents: "none", userSelect: "none" }} draggable={false} onContextMenu={(e) => e.preventDefault()} />
                           </div>
                           <div className="p-3" style={{ background: "rgba(0,0,0,0.6)" }}>
                             <h4 className="font-semibold text-xs leading-snug" style={{ fontFamily: "'Oswald', sans-serif", color: "#fff" }}>{p.title}</h4>
