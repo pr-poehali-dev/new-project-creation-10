@@ -972,8 +972,8 @@ export default function Index() {
               },
             ].map((item) => (
               <div key={item.title} className="rounded-2xl overflow-hidden flex flex-col" style={{ background: "#111", border: `2px solid ${RED}` }}>
-                <div className="relative">
-                  <img src={item.img} alt={item.title} className="w-full h-52 object-cover" />
+                <div className="relative" style={{ background: "#222" }}>
+                  <img src={item.img} alt={item.title} className="w-full h-64 object-contain p-2" />
                   <div className="absolute top-3 left-3 px-3 py-1 rounded-full text-xs font-bold uppercase" style={{ background: RED, color: YELLOW, fontFamily: "'Oswald', sans-serif" }}>
                     АКЦИЯ
                   </div>
