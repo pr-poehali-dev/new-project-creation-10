@@ -471,6 +471,26 @@ const PORTFOLIO = [
     category: "Таблички и стенды",
   },
   {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/ed5fbf0b-0e19-4425-a24e-6185ca08c540.jpg",
+    title: "Табличка режим работы «КаисаКласс»",
+    category: "Таблички и стенды",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/80cd3121-d740-4578-8ed4-e2afead709d8.jpg",
+    title: "Табличка «Екатерина Заонегина — женский коуч»",
+    category: "Таблички и стенды",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/abeca37a-9944-4379-9347-5c23b4bb255d.jpg",
+    title: "Табличка «Продам правильный мёд»",
+    category: "Таблички и стенды",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/15e928e2-7def-43f2-9cd2-a1ad8a33e80b.jpg",
+    title: "Табличка режим работы «Алекс — фабрика мягкой мебели»",
+    category: "Таблички и стенды",
+  },
+  {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/f3d4a534-5884-42c0-9b40-eb44d74dcdda.jpg",
     title: "Табличка режим работы «Берёзка»",
     category: "Таблички и стенды",
