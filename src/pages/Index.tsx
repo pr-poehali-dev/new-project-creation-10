@@ -7,7 +7,6 @@ const NAV_LINKS = [
   { id: "about", label: "О компании" },
   { id: "how", label: "Как мы работаем" },
   { id: "sales", label: "🔥 Акции", highlight: true },
-  { id: "portfolio", label: "Портфолио" },
   { id: "contacts", label: "Контакты" },
 ];
 
@@ -892,24 +891,45 @@ export default function Index() {
             <div className="mt-4 w-16 h-1 rounded" style={{ background: RED }} />
           </div>
 
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {SERVICES.map((s, i) => (
-              <div
-                key={i}
-                className="service-card rounded-2xl p-7"
-                style={{ background: "rgba(255,255,255,0.03)", border: "1px solid rgba(204,27,27,0.2)" }}
-              >
-                <div className="w-12 h-12 rounded-xl flex items-center justify-center mb-5" style={{ background: `rgba(204,27,27,0.15)`, border: `1px solid rgba(204,27,27,0.3)` }}>
-                  <Icon name={s.icon} size={24} style={{ color: RED }} />
+          <div className="flex flex-col gap-20">
+            {SERVICES.map((s, i) => {
+              const works = PORTFOLIO.filter((p) => p.category === s.title);
+              return (
+                <div key={i}>
+                  <div className="flex items-center gap-4 mb-6">
+                    <div className="w-12 h-12 rounded-xl flex items-center justify-center shrink-0" style={{ background: `rgba(204,27,27,0.15)`, border: `1px solid rgba(204,27,27,0.3)` }}>
+                      <Icon name={s.icon} size={24} style={{ color: RED }} />
+                    </div>
+                    <div>
+                      <h3 className="font-bold text-2xl" style={{ fontFamily: "'Oswald', sans-serif", letterSpacing: "0.02em" }}>
+                        {s.title}
+                      </h3>
+                      <p className="text-sm leading-relaxed mt-1" style={{ color: "rgba(245,245,245,0.6)" }}>
+                        {s.desc}
+                      </p>
+                    </div>
+                  </div>
+                  {works.length > 0 && (
+                    <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
+                      {works.map((p, j) => (
+                        <div key={j} className="rounded-xl overflow-hidden" style={{ border: "1px solid rgba(204,27,27,0.25)" }}>
+                          <div className="w-full bg-black flex items-center justify-center" style={{ minHeight: "160px" }}>
+                            <img src={p.img} alt={p.title} className="w-full h-auto object-contain" style={{ maxHeight: "220px" }} />
+                          </div>
+                          <div className="p-3" style={{ background: "rgba(0,0,0,0.6)" }}>
+                            <h4 className="font-semibold text-xs leading-snug" style={{ fontFamily: "'Oswald', sans-serif", color: "#fff" }}>{p.title}</h4>
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  )}
+                  {works.length === 0 && (
+                    <p className="text-sm italic" style={{ color: "rgba(245,245,245,0.3)" }}>Примеры работ скоро появятся</p>
+                  )}
+                  <div className="mt-8 h-px" style={{ background: "rgba(204,27,27,0.15)" }} />
                 </div>
-                <h3 className="font-bold text-lg mb-3" style={{ fontFamily: "'Oswald', sans-serif", letterSpacing: "0.02em" }}>
-                  {s.title}
-                </h3>
-                <p className="text-sm leading-relaxed" style={{ color: "rgba(245,245,245,0.6)" }}>
-                  {s.desc}
-                </p>
-              </div>
-            ))}
+              );
+            })}
           </div>
         </div>
       </section>
@@ -1087,53 +1107,7 @@ export default function Index() {
         </div>
       </section>
 
-      {/* PORTFOLIO */}
-      <section id="portfolio" className="py-24 px-6" style={{ background: "#111" }}>
-        <div className="max-w-7xl mx-auto">
-          <div className="mb-10">
-            <p className="text-sm font-medium uppercase tracking-widest mb-3" style={{ color: YELLOW }}>Наши работы</p>
-            <h2 style={{ fontFamily: "'Oswald', sans-serif", fontSize: "clamp(2rem,4vw,3rem)", fontWeight: 700, lineHeight: 1.1 }}>
-              ПОРТФОЛИО
-            </h2>
-            <div className="mt-4 w-16 h-1 rounded" style={{ background: RED }} />
-          </div>
 
-          <div className="flex flex-wrap gap-3 mb-10">
-            {categories.map((cat) => (
-              <button
-                key={cat}
-                onClick={() => setActiveCategory(cat)}
-                className="px-4 py-2 rounded-full font-semibold text-sm transition-all hover:scale-105"
-                style={{
-                  fontFamily: "'Oswald', sans-serif",
-                  letterSpacing: "0.05em",
-                  background: activeCategory === cat ? RED : "transparent",
-                  color: activeCategory === cat ? "#fff" : "rgba(255,255,255,0.6)",
-                  border: `2px solid ${activeCategory === cat ? RED : "rgba(255,255,255,0.2)"}`,
-                }}
-              >
-                {cat.toUpperCase()}
-              </button>
-            ))}
-          </div>
-
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
-            {filteredPortfolio.map((p, i) => (
-              <div key={i} className="portfolio-card rounded-2xl overflow-hidden" style={{ border: "1px solid rgba(204,27,27,0.25)" }}>
-                <div className="w-full bg-black flex items-center justify-center" style={{ minHeight: "200px" }}>
-                  <img src={p.img} alt={p.title} className="w-full h-auto object-contain rounded-t-2xl" style={{ maxHeight: "280px" }} />
-                </div>
-                <div className="p-4" style={{ background: "rgba(0,0,0,0.6)" }}>
-                  <span className="text-xs font-medium uppercase tracking-wider mb-1 block" style={{ color: YELLOW }}>{p.category}</span>
-                  <h3 className="font-bold text-sm leading-snug" style={{ fontFamily: "'Oswald', sans-serif" }}>{p.title}</h3>
-                </div>
-              </div>
-            ))}
-          </div>
-
-
-        </div>
-      </section>
 
 
 
