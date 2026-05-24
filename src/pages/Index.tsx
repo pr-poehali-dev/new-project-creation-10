@@ -981,13 +981,6 @@ export default function Index() {
 
           {/* CTA кнопки */}
           <div className="flex flex-wrap justify-center gap-4 mt-8">
-            <button
-              onClick={() => scrollTo("portfolio")}
-              className="px-8 py-3 rounded-lg font-bold text-base transition-all hover:scale-105"
-              style={{ background: "#fff", color: RED, fontFamily: "'Oswald', sans-serif", letterSpacing: "0.05em" }}
-            >
-              СМОТРЕТЬ РАБОТЫ
-            </button>
             <div className="relative group">
               <button
                 className="px-8 py-3 rounded-lg font-bold text-base transition-all hover:scale-105 flex items-center gap-2"
