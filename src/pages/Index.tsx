@@ -941,7 +941,7 @@ export default function Index() {
                 {[
                   "ВИЗИТКИ",
                   "ПОДАРОЧНЫЕ СЕРТИФИКАТЫ",
-                  "ПРИГЛАШЕНИЯ",
+                  "ФОТО НА ХОЛСТЕ",
                   "ПЕЧАТЬ ФОТО",
                   "ПЕЧАТЬ БОЛЬШИХ ФОРМАТОВ",
                 ].map((item, i) => (
@@ -983,7 +983,6 @@ export default function Index() {
               style={{ background: "rgba(0,0,0,0.18)", borderLeft: `2px solid ${YELLOW}` }}>
               <ul className="space-y-2">
                 {[
-                  "ФОТО НА ХОЛСТЕ",
                   "АДРЕСНЫЕ ТАБЛИЧКИ",
                   "ОФИСНЫЕ ТАБЛИЧКИ",
                   "НАКЛЕЙКИ С ЛОГО",
