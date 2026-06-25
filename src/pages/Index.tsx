@@ -685,6 +685,21 @@ const PORTFOLIO = [
     title: "Печать баннера на плоттере",
     category: "Печать баннеров. Печать на пленке. Вывески из ПВХ",
   },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/5d9258de-9831-4ca9-bfcf-50e4d0aec4be.jpg",
+    title: "Печать флага с гербом России",
+    category: "Печать баннеров. Печать на пленке. Вывески из ПВХ",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/8addbccb-4489-45c4-b019-4dba344cb3e1.jpg",
+    title: "Баннер «Устранение засоров»",
+    category: "Печать баннеров. Печать на пленке. Вывески из ПВХ",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/e02ce35a-f292-4f06-bd04-ba7f16449017.jpg",
+    title: "Готовый баннер с люверсом",
+    category: "Печать баннеров. Печать на пленке. Вывески из ПВХ",
+  },
 ];
 
 const STATS = [
