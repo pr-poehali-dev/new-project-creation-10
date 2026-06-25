@@ -190,6 +190,16 @@ const PORTFOLIO = [
     category: "Полиграфия",
   },
   {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/470e40b1-7cfc-43be-93d8-5f214ce9884e.jpg",
+    title: "Фигурные стенды «Bootiful» с котами-привидениями",
+    category: "Таблички и стенды",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/1d35ec26-031f-483c-837a-567021b713da.jpg",
+    title: "Фигурный стенд «Кот Матроскин»",
+    category: "Таблички и стенды",
+  },
+  {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/1d5e96be-4200-4e66-8924-c5345c1f6ad1.jpg",
     title: "Фигурные стенды «Bootiful» с котами-привидениями",
     category: "Таблички и стенды",
