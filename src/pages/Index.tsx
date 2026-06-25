@@ -18,7 +18,7 @@ const SERVICES = [
   },
   {
     icon: "Printer",
-    title: "Полиграфия",
+    title: "Визитки. Листовки. Сертификаты",
     desc: "Визитки, листовки, буклеты, сертификаты, блокноты, тетради для обучения мастеров.",
   },
   {
@@ -147,47 +147,47 @@ const PORTFOLIO = [
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/0402587c-a088-4a88-b84d-db1a98850520.jpg",
     title: "Тетрадь «Perfect Lashes» — базовый курс наращивания ресниц",
-    category: "Полиграфия",
+    category: "Визитки. Листовки. Сертификаты",
   },
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/38280d03-c0bd-419c-b60f-134b3f6f7a95.jpg",
     title: "Учебное пособие по маникюру",
-    category: "Полиграфия",
+    category: "Визитки. Листовки. Сертификаты",
   },
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/46f69631-27c5-48d5-a46d-aaeb96584ef4.jpg",
     title: "Тетрадь визажиста — авторский базовый курс",
-    category: "Полиграфия",
+    category: "Визитки. Листовки. Сертификаты",
   },
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/fccc549e-d284-423c-81e9-29711e32885f.jpg",
     title: "Методическое пособие — курс ламинирования ресниц",
-    category: "Полиграфия",
+    category: "Визитки. Листовки. Сертификаты",
   },
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/44d8e45e-8f92-4bc0-9675-e29cd90675e8.jpg",
     title: "Листовки для студии йоги",
-    category: "Полиграфия",
+    category: "Визитки. Листовки. Сертификаты",
   },
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/559eeab5-b2f3-40dc-8547-66085bc58075.jpg",
     title: "Визитки для нумеролога",
-    category: "Полиграфия",
+    category: "Визитки. Листовки. Сертификаты",
   },
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/18196012-e83f-411d-9938-e77cd1ee3d02.jpg",
     title: "Визитки «Уютные подарки»",
-    category: "Полиграфия",
+    category: "Визитки. Листовки. Сертификаты",
   },
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/84c55d45-9c01-4eca-94c0-481433d57f02.jpg",
     title: "Подарочный сертификат",
-    category: "Полиграфия",
+    category: "Визитки. Листовки. Сертификаты",
   },
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/85b42c10-6e9b-416d-899b-27c028d41713.jpg",
     title: "Визитка «Выкуп авто»",
-    category: "Полиграфия",
+    category: "Визитки. Листовки. Сертификаты",
   },
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/470e40b1-7cfc-43be-93d8-5f214ce9884e.jpg",
@@ -477,27 +477,27 @@ const PORTFOLIO = [
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/8be5a1d0-c3f1-409a-aa11-66c0db1244da.jpg",
     title: "Купон на скидку для шоурума «Chic Fashion»",
-    category: "Полиграфия",
+    category: "Визитки. Листовки. Сертификаты",
   },
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/f1678ae7-761f-4516-aa72-dbbad81764e7.jpg",
     title: "Листовка и визитки «Уютные подарки»",
-    category: "Полиграфия",
+    category: "Визитки. Листовки. Сертификаты",
   },
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/50c35311-2701-46e5-9381-c16b27da978d.jpg",
     title: "Визитки и карта клиента для brow-мастера",
-    category: "Полиграфия",
+    category: "Визитки. Листовки. Сертификаты",
   },
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/1edd097d-b49b-4453-a06f-45f14eaf51c1.jpg",
     title: "Визитки-ярлыки «Мирельдекор»",
-    category: "Полиграфия",
+    category: "Визитки. Листовки. Сертификаты",
   },
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/f7d20b8f-5c44-4ff6-9905-4ce1527fd5fa.jpg",
     title: "Чёрные визитки с золотом «Оренметры»",
-    category: "Полиграфия",
+    category: "Визитки. Листовки. Сертификаты",
   },
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/1edc592a-0b28-4840-9243-021aafe668d9.jpg",
@@ -527,72 +527,72 @@ const PORTFOLIO = [
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/aad64ec5-5641-40a2-b8b7-5e1656440e39.jpg",
     title: "Листовка и визитки «SharEL» шары и фотозоны",
-    category: "Полиграфия",
+    category: "Визитки. Листовки. Сертификаты",
   },
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/b525a78b-4adf-4065-982a-7e42b275fd0f.jpg",
     title: "Листовка «English People» — реферальная программа",
-    category: "Полиграфия",
+    category: "Визитки. Листовки. Сертификаты",
   },
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/49bd46ca-fd2c-4853-bbc1-c366398e1b46.jpg",
     title: "Абонемент и визитка «Almira Mirmanova»",
-    category: "Полиграфия",
+    category: "Визитки. Листовки. Сертификаты",
   },
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/ee2eea43-e7d9-458e-8e6b-550236d84fa9.jpg",
     title: "Памятка по уходу после эпиляции «Olga Stolyarova»",
-    category: "Полиграфия",
+    category: "Визитки. Листовки. Сертификаты",
   },
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/d1e1675b-579d-437d-957f-b68c8b53bbac.jpg",
     title: "Визитка для ателье",
-    category: "Полиграфия",
+    category: "Визитки. Листовки. Сертификаты",
   },
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/443027e9-4559-416f-bd9c-7c030d1f2d99.jpg",
     title: "Подарочный сертификат «Massage from Olga Petrova»",
-    category: "Полиграфия",
+    category: "Визитки. Листовки. Сертификаты",
   },
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/36b28900-7729-43fc-bfd8-567f3bd458b5.jpg",
     title: "Подарочный сертификат (фиолетовый)",
-    category: "Полиграфия",
+    category: "Визитки. Листовки. Сертификаты",
   },
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/97823cfa-c5c7-46a4-ad83-ad92ef4e1b41.jpg",
     title: "Подарочный сертификат «Beauty SPA»",
-    category: "Полиграфия",
+    category: "Визитки. Листовки. Сертификаты",
   },
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/c653df1d-e67b-487d-af1e-5cbe8d15f9e0.jpg",
     title: "Визитки «Flowers Sorochinsk»",
-    category: "Полиграфия",
+    category: "Визитки. Листовки. Сертификаты",
   },
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/d4a838cd-efce-4bc7-bf9e-403bab4cab64.jpg",
     title: "Визитки для nail-мастера Светланы Шеиной",
-    category: "Полиграфия",
+    category: "Визитки. Листовки. Сертификаты",
   },
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/2d0dfe19-43ba-4736-ac43-b29a701047a7.jpg",
     title: "Визитки для барбера Eldar Israfilov",
-    category: "Полиграфия",
+    category: "Визитки. Листовки. Сертификаты",
   },
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/e53f3aac-7ef3-4b5d-b2c1-29edca4857fd.jpg",
     title: "Визитки «Мастер на час»",
-    category: "Полиграфия",
+    category: "Визитки. Листовки. Сертификаты",
   },
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/d6555d05-0bf3-4a55-854a-6d170838ce43.jpg",
     title: "Визитки «Клининговая компания»",
-    category: "Полиграфия",
+    category: "Визитки. Листовки. Сертификаты",
   },
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/510c0747-56f8-4b1a-8b96-f2f787238760.jpg",
     title: "Визитки «Остекление» и «Ремонт квартир»",
-    category: "Полиграфия",
+    category: "Визитки. Листовки. Сертификаты",
   },
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/312641ef-1097-4e4e-a740-75d90089c2dc.jpg",
@@ -657,17 +657,17 @@ const PORTFOLIO = [
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/511e5a51-c457-41f6-a154-6584ca60f242.jpg",
     title: "Флаер и визитка «Minbayeva Diana» эпиляция",
-    category: "Полиграфия",
+    category: "Визитки. Листовки. Сертификаты",
   },
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/b7a49fe0-e41a-4604-a98d-7d44f35b9392.jpg",
     title: "Сертификат, визитка и купон студии эпиляции Ерисовой",
-    category: "Полиграфия",
+    category: "Визитки. Листовки. Сертификаты",
   },
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/d4837c2c-6886-4fae-8615-1c09bd8f12f0.jpg",
     title: "Подарочный сертификат на фотосессию «Kristina foto»",
-    category: "Полиграфия",
+    category: "Визитки. Листовки. Сертификаты",
   },
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/cc4914cd-37f8-4582-9f60-29b44e2f8963.jpg",
