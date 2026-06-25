@@ -943,7 +943,7 @@ export default function Index() {
                   "ПОДАРОЧНЫЕ СЕРТИФИКАТЫ",
                   "ФОТО НА ХОЛСТЕ",
                   "ПЕЧАТЬ ФОТО",
-                  "ПЕЧАТЬ БОЛЬШИХ ФОРМАТОВ",
+                  "ЛИСТОВКИ / ФЛАЕРЫ",
                 ].map((item, i) => (
                   <li key={i} className="flex items-start gap-2 text-white"
                     style={{ fontFamily: "'Golos Text', sans-serif", fontSize: "clamp(0.9rem, 1.7vw, 1.2rem)", fontWeight: 600, letterSpacing: "0.04em" }}>
