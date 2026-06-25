@@ -267,47 +267,47 @@ const PORTFOLIO = [
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/02e403bc-2681-4914-a468-23b5cfb0260f.jpg",
     title: "Адресная табличка «3-я Парковая»",
-    category: "Таблички и стенды",
+    category: "Адресные таблички",
   },
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/f4491c18-b9b8-42e4-8297-8aaaa688881f.jpg",
     title: "Адресная табличка «Коммунальная»",
-    category: "Таблички и стенды",
+    category: "Адресные таблички",
   },
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/340f849a-5d41-4f42-aad6-1c9810412639.jpg",
     title: "Адресная табличка «Школьная»",
-    category: "Таблички и стенды",
+    category: "Адресные таблички",
   },
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/25a70026-c358-4519-b8dc-26c876776e30.jpg",
     title: "Адресная табличка «пл. Элеватора»",
-    category: "Таблички и стенды",
+    category: "Адресные таблички",
   },
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/6ce187e9-87e6-45ce-a89d-a2d80db26f74.jpg",
     title: "Адресная табличка «А. Ландо»",
-    category: "Таблички и стенды",
+    category: "Адресные таблички",
   },
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/7fd7f6a8-2a2f-4202-a90a-7e92f2defee3.jpg",
     title: "Адресная табличка «Камская 64»",
-    category: "Таблички и стенды",
+    category: "Адресные таблички",
   },
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/b28774cd-48e9-4074-83f3-254233194449.jpg",
     title: "Адресная табличка «Крымская 13»",
-    category: "Таблички и стенды",
+    category: "Адресные таблички",
   },
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/29d57842-ca3b-41a7-9f5c-ecf6d5f392e5.jpg",
     title: "Адресная табличка «Тихая 353»",
-    category: "Таблички и стенды",
+    category: "Адресные таблички",
   },
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/91513d14-e29e-4f2b-8948-d30b3f758a43.jpg",
     title: "Адресная табличка «Вишнёвая 27»",
-    category: "Таблички и стенды",
+    category: "Адресные таблички",
   },
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/06ea320e-4862-4ca2-bd7b-2fd1b12a2603.jpg",
@@ -412,27 +412,27 @@ const PORTFOLIO = [
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/66a5509c-e211-4d91-83fd-a3cd7749b08f.jpg",
     title: "Адресная табличка «Заречная»",
-    category: "Таблички и стенды",
+    category: "Адресные таблички",
   },
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/8b73462f-cc32-4b59-8163-4c5eac593ca3.jpg",
     title: "Адресная табличка «Воровского»",
-    category: "Таблички и стенды",
+    category: "Адресные таблички",
   },
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/bc96ec47-8687-4f94-8847-346bae47c0f4.jpg",
     title: "Адресная табличка «Апрельская» с птицами",
-    category: "Таблички и стенды",
+    category: "Адресные таблички",
   },
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/86386123-4769-4f8f-b8db-776188506a4d.jpg",
     title: "Адресная табличка «Пражская» с котом",
-    category: "Таблички и стенды",
+    category: "Адресные таблички",
   },
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/200294f9-ba1a-497f-99cb-12f5d90c7ae1.jpg",
     title: "Адресная табличка «Волжская» с овчаркой",
-    category: "Таблички и стенды",
+    category: "Адресные таблички",
   },
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/8be5a1d0-c3f1-409a-aa11-66c0db1244da.jpg",
