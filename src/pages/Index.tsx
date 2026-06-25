@@ -660,7 +660,31 @@ const PORTFOLIO = [
     title: "Автоматическая печать «ADI»",
     category: "Печати и штампы",
   },
-
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/666a1740-065a-42e5-92b2-a3a5c4d7a67c.jpg",
+    title: "Баннер «Аренда»",
+    category: "Печать баннеров. Печать на пленке. Вывески из ПВХ",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/6451b263-a56d-49b2-94b7-758622bfe8d4.jpg",
+    title: "Брендирование борта «Промышленная Буровая Компания»",
+    category: "Печать баннеров. Печать на пленке. Вывески из ПВХ",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/fb21518f-9118-40a6-9004-e573cdad7221.jpg",
+    title: "Баннер «Продажа. Аренда» на заборе",
+    category: "Печать баннеров. Печать на пленке. Вывески из ПВХ",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/fbd47c50-d219-45b4-82b7-2ea0f53e7aa4.jpg",
+    title: "Баннеры «Продажа домов»",
+    category: "Печать баннеров. Печать на пленке. Вывески из ПВХ",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/761b1869-9553-4944-9124-6369dcb2df08.jpg",
+    title: "Печать баннера на плоттере",
+    category: "Печать баннеров. Печать на пленке. Вывески из ПВХ",
+  },
 ];
 
 const STATS = [
