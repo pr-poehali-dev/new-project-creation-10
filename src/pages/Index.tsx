@@ -745,8 +745,23 @@ const PORTFOLIO = [
     category: "Печать баннеров. Печать на пленке. Вывески из ПВХ",
   },
   {
-    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/files/02b4e704-ee42-48ce-a281-66aa0febc69c.jpg",
-    title: "Шарж по фото",
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/0e10c0f3-2647-493e-bf66-1bf20c300a78.jpg",
+    title: "Шарж «Девушка в Париже»",
+    category: "Шарж по фото",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/8da1fada-6fb2-46cc-a6fe-c5e8d0d814d6.jpg",
+    title: "Шарж «Девушка в спортзале»",
+    category: "Шарж по фото",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/8f278b7b-1963-4faf-bab8-53ea37b675a4.jpg",
+    title: "Шарж «Королева»",
+    category: "Шарж по фото",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/a9dea5a8-75ad-432a-9578-b01adf7a38bd.jpg",
+    title: "Шарж «Охотник»",
     category: "Шарж по фото",
   },
 ];
