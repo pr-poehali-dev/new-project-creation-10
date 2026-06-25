@@ -28,8 +28,13 @@ const SERVICES = [
   },
   {
     icon: "Image",
-    title: "Печать фото",
-    desc: "Печать фотографий любых форматов и размеров. Фото в стиле «Полароид». Печать на холсте — превратите любимый снимок в картину для дома или в подарок. Акриловые фотомагниты с вашим фото — стильный и оригинальный сувенир на память.",
+    title: "Фото на холсте",
+    desc: "Превратите любимый снимок в картину для дома или в подарок. Печать на холсте любых форматов и размеров.",
+  },
+  {
+    icon: "Camera",
+    title: "Фото. Фотомагниты",
+    desc: "Печать фотографий любых форматов. Фото в стиле «Полароид». Акриловые фотомагниты с вашим фото — стильный и оригинальный сувенир на память.",
   },
   {
     icon: "RectangleHorizontal",
@@ -348,32 +353,32 @@ const PORTFOLIO = [
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/c0a7a4ee-b834-4455-a09f-068c49b89454.jpg",
     title: "Фото на холсте — свадебный портрет с рамкой",
-    category: "Печать фото",
-  },
-  {
-    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/321267e5-584f-4edd-9bcc-ec8317f48fd1.jpg",
-    title: "Печать фото — портрет пары",
-    category: "Печать фото",
-  },
-  {
-    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/bc1dbff0-b1aa-4b77-ad4b-01a94e933607.jpg",
-    title: "Акриловые фотомагниты с парными фото",
-    category: "Печать фото",
-  },
-  {
-    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/92964724-7eba-4f4e-b5fc-8bc32c1ab9e6.jpg",
-    title: "Печать фото в стиле «Полароид»",
-    category: "Печать фото",
+    category: "Фото на холсте",
   },
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/6ae54f1b-d362-4c75-913f-491a387a2bc3.jpg",
     title: "Фото на холсте — портрет",
-    category: "Печать фото",
+    category: "Фото на холсте",
   },
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/26078d71-7b57-4469-ab34-a0b4f5b8dbc7.jpg",
     title: "Фото на холсте — свадебный портрет",
-    category: "Печать фото",
+    category: "Фото на холсте",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/321267e5-584f-4edd-9bcc-ec8317f48fd1.jpg",
+    title: "Печать фото — портрет пары",
+    category: "Фото. Фотомагниты",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/92964724-7eba-4f4e-b5fc-8bc32c1ab9e6.jpg",
+    title: "Печать фото в стиле «Полароид»",
+    category: "Фото. Фотомагниты",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/bc1dbff0-b1aa-4b77-ad4b-01a94e933607.jpg",
+    title: "Акриловые фотомагниты с парными фото",
+    category: "Фото. Фотомагниты",
   },
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/19c7fc2a-c229-45ae-95e6-555010a3638a.jpg",
@@ -548,12 +553,12 @@ const PORTFOLIO = [
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/dc89ab76-7091-443b-9e3c-c0b97c022df0.jpg",
     title: "Печать фото на холсте",
-    category: "Печать фото",
+    category: "Фото на холсте",
   },
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/34c17b8c-8d68-47a2-9428-b8ae37667c77.jpg",
     title: "Акриловые фотомагниты",
-    category: "Фотомагниты",
+    category: "Фото. Фотомагниты",
   },
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/66a5509c-e211-4d91-83fd-a3cd7749b08f.jpg",
@@ -689,24 +694,24 @@ const PORTFOLIO = [
     category: "Наклейки",
   },
   {
-    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/90421671-88c4-4993-8506-88678eb392f9.jpg",
-    title: "Печать фотографий",
-    category: "Печать фото",
-  },
-  {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/dd4b2cb8-c863-4b2d-b462-7ae67c6e7fd2.jpg",
     title: "Фотоколлаж на холсте",
-    category: "Печать фото",
+    category: "Фото на холсте",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/90421671-88c4-4993-8506-88678eb392f9.jpg",
+    title: "Печать фотографий",
+    category: "Фото. Фотомагниты",
   },
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/b8003fe5-30c3-417e-8030-3f381b7d9f39.jpg",
     title: "Акриловые фотомагниты с любимыми снимками",
-    category: "Фотомагниты",
+    category: "Фото. Фотомагниты",
   },
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/fc4a4130-2757-449b-aa77-9c1d4bd5e799.jpg",
     title: "Гибкие фотомагниты",
-    category: "Фотомагниты",
+    category: "Фото. Фотомагниты",
   },
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/07fa8e30-17bc-4505-b740-d7689b65b8c4.jpg",
