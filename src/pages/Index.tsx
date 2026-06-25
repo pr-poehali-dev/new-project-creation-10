@@ -346,6 +346,21 @@ const PORTFOLIO = [
     category: "Адресные таблички",
   },
   {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/c0a7a4ee-b834-4455-a09f-068c49b89454.jpg",
+    title: "Фото на холсте — свадебный портрет с рамкой",
+    category: "Печать фото",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/321267e5-584f-4edd-9bcc-ec8317f48fd1.jpg",
+    title: "Печать фото — портрет пары",
+    category: "Печать фото",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/bc1dbff0-b1aa-4b77-ad4b-01a94e933607.jpg",
+    title: "Акриловые фотомагниты с парными фото",
+    category: "Печать фото",
+  },
+  {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/92964724-7eba-4f4e-b5fc-8bc32c1ab9e6.jpg",
     title: "Печать фото в стиле «Полароид»",
     category: "Печать фото",
