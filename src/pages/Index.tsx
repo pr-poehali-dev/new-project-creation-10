@@ -789,6 +789,31 @@ const PORTFOLIO = [
     title: "Шарж «Пара у Range Rover»",
     category: "Шарж по фото",
   },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/abed9111-4210-439e-931d-c64b2f91007f.jpg",
+    title: "Шарж «Мужчина с бутылкой»",
+    category: "Шарж по фото",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/8114b872-febb-41e3-9cd1-ce02171d19a6.jpg",
+    title: "Шарж «Учитель»",
+    category: "Шарж по фото",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/f9517fc2-8921-4300-aa99-2c561da6bd7d.jpg",
+    title: "Шарж «С юбилеем»",
+    category: "Шарж по фото",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/a7727763-83c8-4257-9085-209912d83f0d.jpg",
+    title: "Шарж «Пара на красной дорожке»",
+    category: "Шарж по фото",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/852bd681-a7b9-43b6-b455-e914f7b453a5.jpg",
+    title: "Шарж «Семья»",
+    category: "Шарж по фото",
+  },
 ];
 
 const STATS = [
