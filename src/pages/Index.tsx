@@ -984,10 +984,10 @@ export default function Index() {
               <ul className="space-y-2">
                 {[
                   "АДРЕСНЫЕ ТАБЛИЧКИ",
-                  "ОФИСНЫЕ ТАБЛИЧКИ",
-                  "НАКЛЕЙКИ С ЛОГО",
+                  "ОФИСНЫЕ ТАБЛИЧКИ / СТЕНДЫ",
+                  "НАКЛЕЙКИ",
                   "ПЕЧАТИ И ШТАМПЫ",
-                  "СТЕНДЫ. БАННЕРЫ",
+                  "ПЕЧАТЬ БАННЕРОВ",
                 ].map((item, i) => (
                   <li key={i} className="flex items-start gap-2 text-white"
                     style={{ fontFamily: "'Golos Text', sans-serif", fontSize: "clamp(0.9rem, 1.7vw, 1.2rem)", fontWeight: 600, letterSpacing: "0.04em" }}>
