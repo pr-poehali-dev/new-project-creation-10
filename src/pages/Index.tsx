@@ -731,8 +731,23 @@ const PORTFOLIO = [
     category: "Печать баннеров. Печать на пленке. Вывески из ПВХ",
   },
   {
-    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/4baf048b-cd22-4203-b261-aefee24ec98f.jpg",
-    title: "Баннер «Приём и вывоз вторсырья»",
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/10e98072-8a62-4a25-bd98-f7fb45347f9e.jpg",
+    title: "Печать на пленке «Кубанские технологии»",
+    category: "Печать баннеров. Печать на пленке. Вывески из ПВХ",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/62b8d451-8808-47ab-a1b5-33e3667cc8ce.jpg",
+    title: "Печать на пленке «Товары для бани»",
+    category: "Печать баннеров. Печать на пленке. Вывески из ПВХ",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/24407423-cfe0-4912-b664-fad834e170bf.jpg",
+    title: "Печать на пленке SALE",
+    category: "Печать баннеров. Печать на пленке. Вывески из ПВХ",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/b55802e9-fa7f-40c8-bcb0-df7773f10eca.jpg",
+    title: "Самоклеящаяся пленка",
     category: "Печать баннеров. Печать на пленке. Вывески из ПВХ",
   },
 ];
