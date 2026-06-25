@@ -380,41 +380,7 @@ const PORTFOLIO = [
     title: "Акриловые фотомагниты с парными фото",
     category: "Фото. Фотомагниты",
   },
-  {
-    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/19c7fc2a-c229-45ae-95e6-555010a3638a.jpg",
-    title: "Оклейка окон и рекламная растяжка-баннер",
-    category: "Печать баннеров. Печать на пленке. Вывески из ПВХ",
-  },
-  {
-    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/4e560653-fe5f-479b-989b-5a4befce32ad.jpg",
-    title: "Псевдообъёмные буквы «Союз застройщиков»",
-    category: "Печать баннеров. Печать на пленке. Вывески из ПВХ",
-  },
-  {
-    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/28fcca04-761f-4bf0-8086-d102eb778d90.jpg",
-    title: "Вывеска «Буль-Буль»",
-    category: "Печать баннеров. Печать на пленке. Вывески из ПВХ",
-  },
-  {
-    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/5330e039-b57e-41f3-bd2b-4ac6134bea3d.jpg",
-    title: "Баннер «Устранение засоров»",
-    category: "Печать баннеров. Печать на пленке. Вывески из ПВХ",
-  },
-  {
-    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/6a73573b-35bc-40a3-be3e-ef372deadcce.jpg",
-    title: "Вывеска «Универсальный магазин»",
-    category: "Печать баннеров. Печать на пленке. Вывески из ПВХ",
-  },
-  {
-    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/6a61c700-3cd4-46e8-9fef-6d953d7ae4d8.jpg",
-    title: "Баннер «Продажа участка»",
-    category: "Печать баннеров. Печать на пленке. Вывески из ПВХ",
-  },
-  {
-    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/f3689a02-b8e4-466f-8a2b-cb55d3f25dd4.jpg",
-    title: "Баннеры «Продажа домов»",
-    category: "Печать баннеров. Печать на пленке. Вывески из ПВХ",
-  },
+
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/02e403bc-2681-4914-a468-23b5cfb0260f.jpg",
     title: "Адресная табличка «3-я Парковая»",
@@ -485,46 +451,7 @@ const PORTFOLIO = [
     title: "Наклейки Enjoy",
     category: "Наклейки",
   },
-  {
-    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/f6422bd7-662c-4b0d-ba91-088c94f910e5.jpg",
-    title: "Вывеска «Айсберг — соляная пещера»",
-    category: "Печать баннеров. Печать на пленке. Вывески из ПВХ",
-  },
-  {
-    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/3e55923d-254d-4f02-a598-0c27a06d0e5d.jpg",
-    title: "Оклейка витрин магазина кухонь",
-    category: "Печать баннеров. Печать на пленке. Вывески из ПВХ",
-  },
-  {
-    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/23c39606-5452-4e0e-82a6-faf59fdce36e.jpg",
-    title: "Оклейка витрин кафе",
-    category: "Печать баннеров. Печать на пленке. Вывески из ПВХ",
-  },
-  {
-    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/23b386d2-b975-4748-856e-80d52d326fb4.jpg",
-    title: "Баннер «Буль-Буль» сеть центров плавания",
-    category: "Печать баннеров. Печать на пленке. Вывески из ПВХ",
-  },
-  {
-    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/da2d978a-9816-449a-982d-28d48cdda666.jpg",
-    title: "Баннер «Айсберг — островок здоровья»",
-    category: "Печать баннеров. Печать на пленке. Вывески из ПВХ",
-  },
-  {
-    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/bef8e844-6ea5-44ab-abbc-d337b02d81dd.jpg",
-    title: "Оклейка двери «Телефонная будка» English People",
-    category: "Печать баннеров. Печать на пленке. Вывески из ПВХ",
-  },
-  {
-    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/d9dd3187-cd7c-4837-a674-9b577fdee041.jpg",
-    title: "Наклейка на дверь «English People»",
-    category: "Печать баннеров. Печать на пленке. Вывески из ПВХ",
-  },
-  {
-    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/b738725b-fccc-4e1c-af33-bf7897ae72a3.jpg",
-    title: "Брендирование стойки ресепшн «English People»",
-    category: "Печать баннеров. Печать на пленке. Вывески из ПВХ",
-  },
+
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/f8545c41-bed2-4c6e-bf49-c6cd13f3e8d5.jpg",
     title: "Штамп «Вкусная ТЕМА»",
@@ -733,51 +660,7 @@ const PORTFOLIO = [
     title: "Автоматическая печать «ADI»",
     category: "Печати и штампы",
   },
-  {
-    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/55a0582a-f1da-4a9c-925e-81b125249c30.jpg",
-    title: "Баннер «Аренда»",
-    category: "Печать баннеров. Печать на пленке. Вывески из ПВХ",
-  },
-  {
-    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/797b6610-149c-4b57-a638-8f1c442381ab.jpg",
-    title: "Баннер «Новый пункт выдачи OZON»",
-    category: "Печать баннеров. Печать на пленке. Вывески из ПВХ",
-  },
-  {
-    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/0796e145-70c3-456c-8f88-8c7b1b3355a5.jpg",
-    title: "Вертикальный баннер «Шиномонтаж»",
-    category: "Печать баннеров. Печать на пленке. Вывески из ПВХ",
-  },
-  {
-    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/7c6709b4-ac51-4020-b933-859671bbf672.jpg",
-    title: "Баннер «Скоро открытие» Яндекс Маркет",
-    category: "Печать баннеров. Печать на пленке. Вывески из ПВХ",
-  },
-  {
-    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/231abcf6-5242-4c2f-81bf-088b1ca16896.jpg",
-    title: "Баннер «Шиномонтаж»",
-    category: "Печать баннеров. Печать на пленке. Вывески из ПВХ",
-  },
-  {
-    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/431f82e3-5503-4305-b196-6f10115b9ce4.jpg",
-    title: "Баннер «Продажа. Аренда» на заборе",
-    category: "Печать баннеров. Печать на пленке. Вывески из ПВХ",
-  },
-  {
-    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/26cd6547-09c9-4805-9f2c-9955d141a4e4.jpg",
-    title: "Брендирование борта «Бурение скважин»",
-    category: "Печать баннеров. Печать на пленке. Вывески из ПВХ",
-  },
-  {
-    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/d49861bb-f80a-4d22-8182-1069fcf17422.jpg",
-    title: "Печать флага с гербом России",
-    category: "Печать баннеров. Печать на пленке. Вывески из ПВХ",
-  },
-  {
-    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/7376bfbd-ba67-4ea1-a3d7-9e6e667ed2b9.jpg",
-    title: "Брендирование борта «Промышленная Буровая Компания»",
-    category: "Печать баннеров. Печать на пленке. Вывески из ПВХ",
-  },
+
 ];
 
 const STATS = [
