@@ -161,8 +161,33 @@ const PORTFOLIO = [
     category: "Визитки. Листовки. Сертификаты",
   },
   {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/50c35311-2701-46e5-9381-c16b27da978d.jpg",
+    title: "Визитки и карта клиента для brow-мастера",
+    category: "Визитки. Листовки. Сертификаты",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/1edd097d-b49b-4453-a06f-45f14eaf51c1.jpg",
+    title: "Визитки-ярлыки «Мирельдекор»",
+    category: "Визитки. Листовки. Сертификаты",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/f7d20b8f-5c44-4ff6-9905-4ce1527fd5fa.jpg",
+    title: "Чёрные визитки с золотом «Оренметры»",
+    category: "Визитки. Листовки. Сертификаты",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/f1678ae7-761f-4516-aa72-dbbad81764e7.jpg",
+    title: "Листовка и визитки «Уютные подарки»",
+    category: "Визитки. Листовки. Сертификаты",
+  },
+  {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/44d8e45e-8f92-4bc0-9675-e29cd90675e8.jpg",
     title: "Листовки для студии йоги",
+    category: "Визитки. Листовки. Сертификаты",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/8be5a1d0-c3f1-409a-aa11-66c0db1244da.jpg",
+    title: "Купон на скидку для шоурума «Chic Fashion»",
     category: "Визитки. Листовки. Сертификаты",
   },
   {
@@ -455,31 +480,7 @@ const PORTFOLIO = [
     title: "Адресная табличка «Волжская» с овчаркой",
     category: "Адресные таблички",
   },
-  {
-    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/8be5a1d0-c3f1-409a-aa11-66c0db1244da.jpg",
-    title: "Купон на скидку для шоурума «Chic Fashion»",
-    category: "Визитки. Листовки. Сертификаты",
-  },
-  {
-    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/f1678ae7-761f-4516-aa72-dbbad81764e7.jpg",
-    title: "Листовка и визитки «Уютные подарки»",
-    category: "Визитки. Листовки. Сертификаты",
-  },
-  {
-    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/50c35311-2701-46e5-9381-c16b27da978d.jpg",
-    title: "Визитки и карта клиента для brow-мастера",
-    category: "Визитки. Листовки. Сертификаты",
-  },
-  {
-    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/1edd097d-b49b-4453-a06f-45f14eaf51c1.jpg",
-    title: "Визитки-ярлыки «Мирельдекор»",
-    category: "Визитки. Листовки. Сертификаты",
-  },
-  {
-    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/f7d20b8f-5c44-4ff6-9905-4ce1527fd5fa.jpg",
-    title: "Чёрные визитки с золотом «Оренметры»",
-    category: "Визитки. Листовки. Сертификаты",
-  },
+
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/1edc592a-0b28-4840-9243-021aafe668d9.jpg",
     title: "Табличка «Массажный кабинет» тёмная",
