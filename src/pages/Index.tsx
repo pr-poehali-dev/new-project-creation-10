@@ -176,6 +176,41 @@ const PORTFOLIO = [
     category: "Визитки. Листовки. Сертификаты",
   },
   {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/c653df1d-e67b-487d-af1e-5cbe8d15f9e0.jpg",
+    title: "Визитки «Flowers Sorochinsk»",
+    category: "Визитки. Листовки. Сертификаты",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/d4a838cd-efce-4bc7-bf9e-403bab4cab64.jpg",
+    title: "Визитки для nail-мастера Светланы Шеиной",
+    category: "Визитки. Листовки. Сертификаты",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/2d0dfe19-43ba-4736-ac43-b29a701047a7.jpg",
+    title: "Визитки для барбера Eldar Israfilov",
+    category: "Визитки. Листовки. Сертификаты",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/e53f3aac-7ef3-4b5d-b2c1-29edca4857fd.jpg",
+    title: "Визитки «Мастер на час»",
+    category: "Визитки. Листовки. Сертификаты",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/d6555d05-0bf3-4a55-854a-6d170838ce43.jpg",
+    title: "Визитки «Клининговая компания»",
+    category: "Визитки. Листовки. Сертификаты",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/510c0747-56f8-4b1a-8b96-f2f787238760.jpg",
+    title: "Визитки «Остекление» и «Ремонт квартир»",
+    category: "Визитки. Листовки. Сертификаты",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/d1e1675b-579d-437d-957f-b68c8b53bbac.jpg",
+    title: "Визитка для ателье",
+    category: "Визитки. Листовки. Сертификаты",
+  },
+  {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/f1678ae7-761f-4516-aa72-dbbad81764e7.jpg",
     title: "Листовка и визитки «Уютные подарки»",
     category: "Визитки. Листовки. Сертификаты",
@@ -186,6 +221,31 @@ const PORTFOLIO = [
     category: "Визитки. Листовки. Сертификаты",
   },
   {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/aad64ec5-5641-40a2-b8b7-5e1656440e39.jpg",
+    title: "Листовка и визитки «SharEL» шары и фотозоны",
+    category: "Визитки. Листовки. Сертификаты",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/b525a78b-4adf-4065-982a-7e42b275fd0f.jpg",
+    title: "Листовка «English People» — реферальная программа",
+    category: "Визитки. Листовки. Сертификаты",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/ee2eea43-e7d9-458e-8e6b-550236d84fa9.jpg",
+    title: "Памятка по уходу после эпиляции «Olga Stolyarova»",
+    category: "Визитки. Листовки. Сертификаты",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/511e5a51-c457-41f6-a154-6584ca60f242.jpg",
+    title: "Флаер и визитка «Minbayeva Diana» эпиляция",
+    category: "Визитки. Листовки. Сертификаты",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/49bd46ca-fd2c-4853-bbc1-c366398e1b46.jpg",
+    title: "Абонемент и визитка «Almira Mirmanova»",
+    category: "Визитки. Листовки. Сертификаты",
+  },
+  {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/8be5a1d0-c3f1-409a-aa11-66c0db1244da.jpg",
     title: "Купон на скидку для шоурума «Chic Fashion»",
     category: "Визитки. Листовки. Сертификаты",
@@ -193,6 +253,31 @@ const PORTFOLIO = [
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/84c55d45-9c01-4eca-94c0-481433d57f02.jpg",
     title: "Подарочный сертификат",
+    category: "Визитки. Листовки. Сертификаты",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/443027e9-4559-416f-bd9c-7c030d1f2d99.jpg",
+    title: "Подарочный сертификат «Massage from Olga Petrova»",
+    category: "Визитки. Листовки. Сертификаты",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/36b28900-7729-43fc-bfd8-567f3bd458b5.jpg",
+    title: "Подарочный сертификат (фиолетовый)",
+    category: "Визитки. Листовки. Сертификаты",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/97823cfa-c5c7-46a4-ad83-ad92ef4e1b41.jpg",
+    title: "Подарочный сертификат «Beauty SPA»",
+    category: "Визитки. Листовки. Сертификаты",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/b7a49fe0-e41a-4604-a98d-7d44f35b9392.jpg",
+    title: "Сертификат, визитка и купон студии эпиляции Ерисовой",
+    category: "Визитки. Листовки. Сертификаты",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/d4837c2c-6886-4fae-8615-1c09bd8f12f0.jpg",
+    title: "Подарочный сертификат на фотосессию «Kristina foto»",
     category: "Визитки. Листовки. Сертификаты",
   },
   {
@@ -506,76 +591,7 @@ const PORTFOLIO = [
     title: "Табличка режима работы DG",
     category: "Таблички и стенды",
   },
-  {
-    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/aad64ec5-5641-40a2-b8b7-5e1656440e39.jpg",
-    title: "Листовка и визитки «SharEL» шары и фотозоны",
-    category: "Визитки. Листовки. Сертификаты",
-  },
-  {
-    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/b525a78b-4adf-4065-982a-7e42b275fd0f.jpg",
-    title: "Листовка «English People» — реферальная программа",
-    category: "Визитки. Листовки. Сертификаты",
-  },
-  {
-    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/49bd46ca-fd2c-4853-bbc1-c366398e1b46.jpg",
-    title: "Абонемент и визитка «Almira Mirmanova»",
-    category: "Визитки. Листовки. Сертификаты",
-  },
-  {
-    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/ee2eea43-e7d9-458e-8e6b-550236d84fa9.jpg",
-    title: "Памятка по уходу после эпиляции «Olga Stolyarova»",
-    category: "Визитки. Листовки. Сертификаты",
-  },
-  {
-    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/d1e1675b-579d-437d-957f-b68c8b53bbac.jpg",
-    title: "Визитка для ателье",
-    category: "Визитки. Листовки. Сертификаты",
-  },
-  {
-    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/443027e9-4559-416f-bd9c-7c030d1f2d99.jpg",
-    title: "Подарочный сертификат «Massage from Olga Petrova»",
-    category: "Визитки. Листовки. Сертификаты",
-  },
-  {
-    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/36b28900-7729-43fc-bfd8-567f3bd458b5.jpg",
-    title: "Подарочный сертификат (фиолетовый)",
-    category: "Визитки. Листовки. Сертификаты",
-  },
-  {
-    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/97823cfa-c5c7-46a4-ad83-ad92ef4e1b41.jpg",
-    title: "Подарочный сертификат «Beauty SPA»",
-    category: "Визитки. Листовки. Сертификаты",
-  },
-  {
-    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/c653df1d-e67b-487d-af1e-5cbe8d15f9e0.jpg",
-    title: "Визитки «Flowers Sorochinsk»",
-    category: "Визитки. Листовки. Сертификаты",
-  },
-  {
-    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/d4a838cd-efce-4bc7-bf9e-403bab4cab64.jpg",
-    title: "Визитки для nail-мастера Светланы Шеиной",
-    category: "Визитки. Листовки. Сертификаты",
-  },
-  {
-    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/2d0dfe19-43ba-4736-ac43-b29a701047a7.jpg",
-    title: "Визитки для барбера Eldar Israfilov",
-    category: "Визитки. Листовки. Сертификаты",
-  },
-  {
-    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/e53f3aac-7ef3-4b5d-b2c1-29edca4857fd.jpg",
-    title: "Визитки «Мастер на час»",
-    category: "Визитки. Листовки. Сертификаты",
-  },
-  {
-    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/d6555d05-0bf3-4a55-854a-6d170838ce43.jpg",
-    title: "Визитки «Клининговая компания»",
-    category: "Визитки. Листовки. Сертификаты",
-  },
-  {
-    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/510c0747-56f8-4b1a-8b96-f2f787238760.jpg",
-    title: "Визитки «Остекление» и «Ремонт квартир»",
-    category: "Визитки. Листовки. Сертификаты",
-  },
+
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/312641ef-1097-4e4e-a740-75d90089c2dc.jpg",
     title: "Информационный стенд «УК Этажи»",
@@ -636,21 +652,7 @@ const PORTFOLIO = [
     title: "Табличка режим работы «Берёзка»",
     category: "Таблички и стенды",
   },
-  {
-    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/511e5a51-c457-41f6-a154-6584ca60f242.jpg",
-    title: "Флаер и визитка «Minbayeva Diana» эпиляция",
-    category: "Визитки. Листовки. Сертификаты",
-  },
-  {
-    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/b7a49fe0-e41a-4604-a98d-7d44f35b9392.jpg",
-    title: "Сертификат, визитка и купон студии эпиляции Ерисовой",
-    category: "Визитки. Листовки. Сертификаты",
-  },
-  {
-    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/d4837c2c-6886-4fae-8615-1c09bd8f12f0.jpg",
-    title: "Подарочный сертификат на фотосессию «Kristina foto»",
-    category: "Визитки. Листовки. Сертификаты",
-  },
+
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/cc4914cd-37f8-4582-9f60-29b44e2f8963.jpg",
     title: "Наклейки «ВкусЛета» — фрукты и ягоды",
