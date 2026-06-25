@@ -621,6 +621,11 @@ const PORTFOLIO = [
     category: "Наклейки",
   },
   {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/37d80d37-8d26-4355-bb95-72c311fb935c.jpg",
+    title: "Круглые наклейки на крафт-пакеты",
+    category: "Наклейки",
+  },
+  {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/dd4b2cb8-c863-4b2d-b462-7ae67c6e7fd2.jpg",
     title: "Фотоколлаж на холсте",
     category: "Фото на холсте",
