@@ -295,11 +295,7 @@ const PORTFOLIO = [
     title: "Фигурный стенд «Кот Матроскин»",
     category: "Таблички и стенды",
   },
-  {
-    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/1d5e96be-4200-4e66-8924-c5345c1f6ad1.jpg",
-    title: "Фигурные стенды «Bootiful» с котами-привидениями",
-    category: "Таблички и стенды",
-  },
+
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/7286779c-d14c-4e71-aa2b-3ebf17f7ea74.jpg",
     title: "Табличка «Осторожно! Возможен сход снега»",
