@@ -190,6 +190,31 @@ const PORTFOLIO = [
     category: "Полиграфия",
   },
   {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/7286779c-d14c-4e71-aa2b-3ebf17f7ea74.jpg",
+    title: "Табличка «Осторожно! Возможен сход снега»",
+    category: "Таблички и стенды",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/cb7ac707-99dc-41ff-9f6a-507f795a5c92.jpg",
+    title: "Табличка «Ивановский трикотаж»",
+    category: "Таблички и стенды",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/fab15c4d-9eb5-427f-a1c0-f3bafd4d116c.jpg",
+    title: "Номерные таблички «3»",
+    category: "Таблички и стенды",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/2d1838c2-4f99-4bf1-b80b-2d6c3de2aa5f.jpg",
+    title: "Стенд «Студия детского развития Успех»",
+    category: "Таблички и стенды",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/fb7f8fdf-9507-452a-91c3-6676c5317515.jpg",
+    title: "Фигурные стенды с персонажами мультфильмов",
+    category: "Таблички и стенды",
+  },
+  {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/2fbb8e26-f193-4ec7-a38d-c8fd25751880.jpg",
     title: "Табличка «Солдатское общежитие»",
     category: "Таблички и стенды",
