@@ -744,6 +744,11 @@ const PORTFOLIO = [
     title: "Самоклеящаяся пленка",
     category: "Печать баннеров. Печать на пленке. Вывески из ПВХ",
   },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/files/02b4e704-ee42-48ce-a281-66aa0febc69c.jpg",
+    title: "Шарж по фото",
+    category: "Шарж по фото",
+  },
 ];
 
 const STATS = [
