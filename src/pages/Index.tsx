@@ -814,6 +814,31 @@ const PORTFOLIO = [
     title: "Шарж «Семья»",
     category: "Шарж по фото",
   },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/df2cfc73-f507-4a4b-b6d9-d3d123dfcc4b.jpg",
+    title: "Шарж «Семья Кравченко»",
+    category: "Шарж по фото",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/3e1a7b9d-219b-4b72-ac27-297ebbc8da4a.jpg",
+    title: "Шарж «Две подруги»",
+    category: "Шарж по фото",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/eb703cf8-aa99-4744-b6ad-3f46f3570303.jpg",
+    title: "Шарж «Молодая семья»",
+    category: "Шарж по фото",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/c042a436-3bdd-41d5-bce2-f2c296780782.jpg",
+    title: "Шарж «Пикник с друзьями»",
+    category: "Шарж по фото",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/e4ec7b6a-81a4-4193-949a-d95cdb07ccef.jpg",
+    title: "Шарж «Главный бухгалтер»",
+    category: "Шарж по фото",
+  },
 ];
 
 const STATS = [
