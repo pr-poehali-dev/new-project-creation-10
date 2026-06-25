@@ -854,6 +854,31 @@ const PORTFOLIO = [
     title: "Шарж «Учитель с глобусом»",
     category: "Шарж по фото",
   },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/7f480bb9-5c39-4859-91e7-5494539873af.jpg",
+    title: "Фото в образе «Дама с цветами»",
+    category: "Фото в образе",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/25e599cb-8fdf-4078-8fba-c2dfee5ac806.jpg",
+    title: "Фото в образе «Императрица»",
+    category: "Фото в образе",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/de4d9ba5-e260-42fa-83f6-f40a76a12617.jpg",
+    title: "Фото в образе «Генерал»",
+    category: "Фото в образе",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/78f3d5dc-e6b5-46f7-a433-24654f07c28c.jpg",
+    title: "Фото в образе «Принц»",
+    category: "Фото в образе",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/206a78a5-3ae2-49a2-988c-9c4566ca57ef.jpg",
+    title: "Фото в образе «Фельдмаршал»",
+    category: "Фото в образе",
+  },
 ];
 
 const STATS = [
