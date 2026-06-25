@@ -144,26 +144,7 @@ const PORTFOLIO = [
     title: "Логотип «Большая перемена»",
     category: "Брендинг",
   },
-  {
-    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/0402587c-a088-4a88-b84d-db1a98850520.jpg",
-    title: "Тетрадь «Perfect Lashes» — базовый курс наращивания ресниц",
-    category: "Визитки. Листовки. Сертификаты",
-  },
-  {
-    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/38280d03-c0bd-419c-b60f-134b3f6f7a95.jpg",
-    title: "Учебное пособие по маникюру",
-    category: "Визитки. Листовки. Сертификаты",
-  },
-  {
-    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/46f69631-27c5-48d5-a46d-aaeb96584ef4.jpg",
-    title: "Тетрадь визажиста — авторский базовый курс",
-    category: "Визитки. Листовки. Сертификаты",
-  },
-  {
-    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/fccc549e-d284-423c-81e9-29711e32885f.jpg",
-    title: "Методическое пособие — курс ламинирования ресниц",
-    category: "Визитки. Листовки. Сертификаты",
-  },
+
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/44d8e45e-8f92-4bc0-9675-e29cd90675e8.jpg",
     title: "Листовки для студии йоги",
