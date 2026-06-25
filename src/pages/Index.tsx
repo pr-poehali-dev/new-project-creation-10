@@ -710,6 +710,26 @@ const PORTFOLIO = [
     title: "Баннер и табличка «ИП Смирнов»",
     category: "Печать баннеров. Печать на пленке. Вывески из ПВХ",
   },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/7955457c-ac85-4a98-93c9-6c81dfe57d9a.jpg",
+    title: "Печать на пленке «Срочный ремонт обуви»",
+    category: "Печать баннеров. Печать на пленке. Вывески из ПВХ",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/f8eff7b4-6476-44a9-9b5c-be9dfe6892bf.jpg",
+    title: "Баннер «Косметология Aleksa / Ателье»",
+    category: "Печать баннеров. Печать на пленке. Вывески из ПВХ",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/35e55cd4-837b-4ce0-84d3-a42494c0d292.jpg",
+    title: "Баннер «Разливные напитки»",
+    category: "Печать баннеров. Печать на пленке. Вывески из ПВХ",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/4baf048b-cd22-4203-b261-aefee24ec98f.jpg",
+    title: "Баннер «Приём и вывоз вторсырья»",
+    category: "Печать баннеров. Печать на пленке. Вывески из ПВХ",
+  },
 ];
 
 const STATS = [
