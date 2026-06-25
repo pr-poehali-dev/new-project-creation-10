@@ -700,6 +700,16 @@ const PORTFOLIO = [
     title: "Готовый баннер с люверсом",
     category: "Печать баннеров. Печать на пленке. Вывески из ПВХ",
   },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/03c16253-de8c-4fca-abbf-fa526c6d1a3d.jpg",
+    title: "Печать на пленке",
+    category: "Печать баннеров. Печать на пленке. Вывески из ПВХ",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/1f66de94-a954-4260-8903-173dfe2e8534.jpg",
+    title: "Баннер и табличка «ИП Смирнов»",
+    category: "Печать баннеров. Печать на пленке. Вывески из ПВХ",
+  },
 ];
 
 const STATS = [
