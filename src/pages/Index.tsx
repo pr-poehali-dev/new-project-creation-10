@@ -376,11 +376,7 @@ const PORTFOLIO = [
     title: "Печать фото в стиле «Полароид»",
     category: "Фото. Фотомагниты",
   },
-  {
-    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/bc1dbff0-b1aa-4b77-ad4b-01a94e933607.jpg",
-    title: "Акриловые фотомагниты с парными фото",
-    category: "Фото. Фотомагниты",
-  },
+
 
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/02e403bc-2681-4914-a468-23b5cfb0260f.jpg",
