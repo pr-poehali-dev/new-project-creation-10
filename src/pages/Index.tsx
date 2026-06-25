@@ -59,7 +59,7 @@ const SERVICES = [
   {
     icon: "Smile",
     title: "Шарж по фото",
-    desc: "Сделаем красивый и незабываемый шарж по вашей фотографии. Отличный подарок.",
+    desc: "Сделаем красивый и незабываемый шарж по вашей фотографии. Отличный подарок. Напечатаем на холсте.",
   },
 ];
 
@@ -837,6 +837,16 @@ const PORTFOLIO = [
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/e4ec7b6a-81a4-4193-949a-d95cdb07ccef.jpg",
     title: "Шарж «Главный бухгалтер»",
+    category: "Шарж по фото",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/95998289-9cb7-47de-8336-74cb09075004.jpg",
+    title: "Шарж «Семья на даче»",
+    category: "Шарж по фото",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/4aff7a04-8834-45c9-beb3-332f5f5f06f2.jpg",
+    title: "Шарж «Учитель с глобусом»",
     category: "Шарж по фото",
   },
 ];
