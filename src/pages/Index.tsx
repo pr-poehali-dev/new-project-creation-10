@@ -701,18 +701,8 @@ const PORTFOLIO = [
     category: "Печать баннеров. Печать на пленке. Вывески из ПВХ",
   },
   {
-    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/03c16253-de8c-4fca-abbf-fa526c6d1a3d.jpg",
-    title: "Печать на пленке",
-    category: "Печать баннеров. Печать на пленке. Вывески из ПВХ",
-  },
-  {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/1f66de94-a954-4260-8903-173dfe2e8534.jpg",
     title: "Баннер и табличка «ИП Смирнов»",
-    category: "Печать баннеров. Печать на пленке. Вывески из ПВХ",
-  },
-  {
-    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/7955457c-ac85-4a98-93c9-6c81dfe57d9a.jpg",
-    title: "Печать на пленке «Срочный ремонт обуви»",
     category: "Печать баннеров. Печать на пленке. Вывески из ПВХ",
   },
   {
@@ -723,6 +713,21 @@ const PORTFOLIO = [
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/35e55cd4-837b-4ce0-84d3-a42494c0d292.jpg",
     title: "Баннер «Разливные напитки»",
+    category: "Печать баннеров. Печать на пленке. Вывески из ПВХ",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/4baf048b-cd22-4203-b261-aefee24ec98f.jpg",
+    title: "Баннер «Приём и вывоз вторсырья»",
+    category: "Печать баннеров. Печать на пленке. Вывески из ПВХ",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/03c16253-de8c-4fca-abbf-fa526c6d1a3d.jpg",
+    title: "Печать на пленке",
+    category: "Печать баннеров. Печать на пленке. Вывески из ПВХ",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/7955457c-ac85-4a98-93c9-6c81dfe57d9a.jpg",
+    title: "Печать на пленке «Срочный ремонт обуви»",
     category: "Печать баннеров. Печать на пленке. Вывески из ПВХ",
   },
   {
