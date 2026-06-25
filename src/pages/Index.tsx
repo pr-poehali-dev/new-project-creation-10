@@ -146,11 +146,6 @@ const PORTFOLIO = [
   },
 
   {
-    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/44d8e45e-8f92-4bc0-9675-e29cd90675e8.jpg",
-    title: "Листовки для студии йоги",
-    category: "Визитки. Листовки. Сертификаты",
-  },
-  {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/559eeab5-b2f3-40dc-8547-66085bc58075.jpg",
     title: "Визитки для нумеролога",
     category: "Визитки. Листовки. Сертификаты",
@@ -161,13 +156,18 @@ const PORTFOLIO = [
     category: "Визитки. Листовки. Сертификаты",
   },
   {
-    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/84c55d45-9c01-4eca-94c0-481433d57f02.jpg",
-    title: "Подарочный сертификат",
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/85b42c10-6e9b-416d-899b-27c028d41713.jpg",
+    title: "Визитка «Выкуп авто»",
     category: "Визитки. Листовки. Сертификаты",
   },
   {
-    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/85b42c10-6e9b-416d-899b-27c028d41713.jpg",
-    title: "Визитка «Выкуп авто»",
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/44d8e45e-8f92-4bc0-9675-e29cd90675e8.jpg",
+    title: "Листовки для студии йоги",
+    category: "Визитки. Листовки. Сертификаты",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/84c55d45-9c01-4eca-94c0-481433d57f02.jpg",
+    title: "Подарочный сертификат",
     category: "Визитки. Листовки. Сертификаты",
   },
   {
