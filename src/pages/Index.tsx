@@ -879,6 +879,31 @@ const PORTFOLIO = [
     title: "Фото в образе «Фельдмаршал»",
     category: "Фото в образе",
   },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/acd59d72-37b5-4083-874e-7785853aaa23.jpg",
+    title: "Фото в образе «Пара в старинных костюмах»",
+    category: "Фото в образе",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/ae78a093-29af-40b6-a465-d8da8bc0f6a7.jpg",
+    title: "Фото в образе «Королевская семья»",
+    category: "Фото в образе",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/8417cab7-67b0-4c8b-972b-3004a4c8e188.jpg",
+    title: "Фото в образе «Дворянская семья»",
+    category: "Фото в образе",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/ce1b985c-6a28-415f-84fa-00c94006119c.jpg",
+    title: "Фото в образе «Парадный портрет пары»",
+    category: "Фото в образе",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/7500acaa-9127-450d-99b9-e2db81ff3c48.jpg",
+    title: "Фото в образе «Офицер»",
+    category: "Фото в образе",
+  },
 ];
 
 const STATS = [
