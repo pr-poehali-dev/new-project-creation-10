@@ -764,6 +764,31 @@ const PORTFOLIO = [
     title: "Шарж «Охотник»",
     category: "Шарж по фото",
   },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/423cea07-1508-4933-a391-4f63e80ebae2.jpg",
+    title: "Шарж «Влюблённая пара»",
+    category: "Шарж по фото",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/f7afc9bb-dfed-48af-8015-a22576aa265a.jpg",
+    title: "Шарж «Рыбак и охотник»",
+    category: "Шарж по фото",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/2b113543-2c37-4664-bdeb-fc7b26621ea7.jpg",
+    title: "Шарж «Девушка-фотограф»",
+    category: "Шарж по фото",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/7ebc4baf-3324-4874-9504-913f55f283fd.jpg",
+    title: "Шарж «Девушка в баре»",
+    category: "Шарж по фото",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/a66fd039-97bc-465e-9a80-6b0af9aa4b2e.jpg",
+    title: "Шарж «Пара у Range Rover»",
+    category: "Шарж по фото",
+  },
 ];
 
 const STATS = [
