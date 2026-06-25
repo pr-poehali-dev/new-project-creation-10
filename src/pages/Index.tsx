@@ -356,6 +356,11 @@ const PORTFOLIO = [
     category: "Фото на холсте",
   },
   {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/321267e5-584f-4edd-9bcc-ec8317f48fd1.jpg",
+    title: "Фото на холсте — портрет пары",
+    category: "Фото на холсте",
+  },
+  {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/6ae54f1b-d362-4c75-913f-491a387a2bc3.jpg",
     title: "Фото на холсте — портрет",
     category: "Фото на холсте",
@@ -365,11 +370,7 @@ const PORTFOLIO = [
     title: "Фото на холсте — свадебный портрет",
     category: "Фото на холсте",
   },
-  {
-    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/321267e5-584f-4edd-9bcc-ec8317f48fd1.jpg",
-    title: "Печать фото — портрет пары",
-    category: "Фото. Фотомагниты",
-  },
+
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/92964724-7eba-4f4e-b5fc-8bc32c1ab9e6.jpg",
     title: "Печать фото в стиле «Полароид»",
