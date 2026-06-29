@@ -619,6 +619,16 @@ const PORTFOLIO = [
     category: "Фото на холсте",
   },
   {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/5ffd4029-5c95-457f-b69b-c9fe577dd755.jpg",
+    title: "Фото на холсте «Поцелуй»",
+    category: "Фото на холсте",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/d6d117b1-7780-4d17-9a12-4cffacf126ef.jpg",
+    title: "Фото на холсте чёрно-белое",
+    category: "Фото на холсте",
+  },
+  {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/90421671-88c4-4993-8506-88678eb392f9.jpg",
     title: "Печать фотографий",
     category: "Фото. Фотомагниты",
