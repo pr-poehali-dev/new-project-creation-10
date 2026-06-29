@@ -314,7 +314,7 @@ const PORTFOLIO = [
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/cb7ac707-99dc-41ff-9f6a-507f795a5c92.jpg",
     title: "Табличка «Ивановский трикотаж»",
-    category: "Таблички и стенды",
+    category: "Печать баннеров. Печать на пленке. Вывески из ПВХ",
   },
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/fab15c4d-9eb5-427f-a1c0-f3bafd4d116c.jpg",
@@ -529,7 +529,7 @@ const PORTFOLIO = [
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/6cec990e-09d7-429d-8cfc-2f884124f83c.jpg",
     title: "Вывеска «Мясо & Рыба»",
-    category: "Таблички и стенды",
+    category: "Печать баннеров. Печать на пленке. Вывески из ПВХ",
   },
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/5d6ed765-cce1-40f5-9558-2c66a4885039.jpg",
@@ -590,7 +590,7 @@ const PORTFOLIO = [
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/abeca37a-9944-4379-9347-5c23b4bb255d.jpg",
     title: "Табличка «Продам правильный мёд»",
-    category: "Таблички и стенды",
+    category: "Печать баннеров. Печать на пленке. Вывески из ПВХ",
   },
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/15e928e2-7def-43f2-9cd2-a1ad8a33e80b.jpg",
