@@ -1013,7 +1013,7 @@ export default function Index() {
               className="hidden lg:flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold transition-all hover:scale-105"
               style={{ background: "#00aaff22", border: "1px solid #00aaff55", color: "#00aaff" }}
             >
-              ⭐ 149 отзывов
+              ⭐ Отзывы на Авито
             </a>
             <button
               onClick={() => scrollTo("contacts")}
@@ -1303,7 +1303,7 @@ export default function Index() {
               className="inline-flex items-center gap-3 px-6 py-3 rounded-xl font-semibold transition-all hover:scale-105"
               style={{ background: "#00aaff", color: "#fff", fontSize: "1rem" }}
             >
-              ⭐ 149 отзывов на Авито
+              ⭐ Отзывы на Авито на Авито
             </a>
           </div>
         </div>
@@ -1584,7 +1584,7 @@ export default function Index() {
             <a href="https://www.avito.ru/brands/e87ba7201c197c661b09849dd41c83d3?src=sharing" target="_blank" rel="noopener noreferrer"
               className="text-xs transition-colors hover:underline"
               style={{ color: "#00aaff" }}>
-              ⭐ 149 отзывов на Авито
+              ⭐ Отзывы на Авито на Авито
             </a>
           </div>
           <div className="flex gap-6">
