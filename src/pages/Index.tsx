@@ -313,7 +313,7 @@ const PORTFOLIO = [
   },
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/cb7ac707-99dc-41ff-9f6a-507f795a5c92.jpg",
-    title: "Табличка «Ивановский трикотаж»",
+    title: "Вывеска из ПВХ «Ивановский трикотаж»",
     category: "Печать баннеров. Печать на пленке. Вывески из ПВХ",
   },
   {
@@ -528,7 +528,7 @@ const PORTFOLIO = [
   },
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/6cec990e-09d7-429d-8cfc-2f884124f83c.jpg",
-    title: "Вывеска «Мясо & Рыба»",
+    title: "Вывеска из ПВХ «Мясо & Рыба»",
     category: "Печать баннеров. Печать на пленке. Вывески из ПВХ",
   },
   {
@@ -589,7 +589,7 @@ const PORTFOLIO = [
   },
   {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/abeca37a-9944-4379-9347-5c23b4bb255d.jpg",
-    title: "Табличка «Продам правильный мёд»",
+    title: "Вывеска из ПВХ «Продам правильный мёд»",
     category: "Печать баннеров. Печать на пленке. Вывески из ПВХ",
   },
   {
