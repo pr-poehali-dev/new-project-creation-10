@@ -750,6 +750,31 @@ const PORTFOLIO = [
     category: "Печать баннеров. Печать на пленке. Вывески из ПВХ",
   },
   {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/9c75c28a-8f81-4315-b471-fe0e97e6aa52.jpg",
+    title: "Вывеска из ПВХ «Ювелирная мастерская»",
+    category: "Печать баннеров. Печать на пленке. Вывески из ПВХ",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/2e975999-6c55-45ef-8511-965ffcbd865b.jpg",
+    title: "Вывеска из ПВХ «Оренбургские зерновые технологии»",
+    category: "Печать баннеров. Печать на пленке. Вывески из ПВХ",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/2a32741d-caac-4125-ac87-72426f3ef9ea.jpg",
+    title: "Вывеска из ПВХ «www.rus»",
+    category: "Печать баннеров. Печать на пленке. Вывески из ПВХ",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/27667949-894e-46fb-a4ca-4e68ae05e7f4.jpg",
+    title: "Вывеска из ПВХ «Оформление покупки»",
+    category: "Печать баннеров. Печать на пленке. Вывески из ПВХ",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/c83ce0b1-cd60-4848-b0d6-2b261e6eede8.jpg",
+    title: "Вывеска из ПВХ «Labrium Consulting»",
+    category: "Печать баннеров. Печать на пленке. Вывески из ПВХ",
+  },
+  {
     img: "https://cdn.poehali.dev/projects/4dd09df7-5058-4a64-a766-924dd2306196/bucket/0e10c0f3-2647-493e-bf66-1bf20c300a78.jpg",
     title: "Шарж «Девушка в Париже»",
     category: "Шарж по фото",
